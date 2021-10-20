@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    background: fixed;
+    background-size: cover;
+    font-family: 'Inter',sans-serif;
+}
+
+.center_view{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+}
+
+.portrait_view{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landscape_view{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
