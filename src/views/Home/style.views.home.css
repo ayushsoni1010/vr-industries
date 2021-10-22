@@ -1,0 +1,127 @@
+div.home-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container > p.home-section-title {
+  font-family: 'Baloo 2';
+  font-weight: 800;
+  font-size: 80px;
+  margin-left: 30px;
+  line-height: 85px;
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container > p.home-section-second-title {
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper > div.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: rotate 5s infinite alternate;
+          animation: rotate 5s infinite alternate;
+}
+
+@-webkit-keyframes rotate {
+  40% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  70% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes rotate {
+  40% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  70% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+div.home-section-wrapper > div.home-section-content-wrapper > div.person > img {
+  width: 555px;
+}
+
+div.home-section-wrapper > div.primary-button-pages-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: -35em;
+  margin-top: 10px;
+}
+
+div.home-section-wrapper > div.custom-wavy-shape-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+div.home-section-wrapper > div.custom-wavy-shape-bottom > svg {
+  position: relative;
+  display: block;
+  width: calc(143% + 1.3px);
+  height: 250px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+div.home-section-wrapper > div.custom-wavy-shape-bottom > svg > path.shape-fill {
+  fill: #9900ff;
+}
+/*# sourceMappingURL=style.views.home.css.map */

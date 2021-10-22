@@ -1,0 +1,79 @@
+div.home-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >div.home-section-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+
+        >div.home-section-description-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+            >p.home-section-title {
+                font-family: 'Baloo 2';
+                font-weight: 800;
+                font-size: 80px;
+                margin-left: 30px;
+                line-height: 85px;
+            }
+            >p.home-section-second-title {
+                font-family: 'Inter';
+                font-weight: 600;
+                margin-top: 20px;
+                font-size: 17px;
+                margin-left: 30px;
+            }
+
+        }
+        >div.person{
+            display: flex;
+            animation: rotate 5s infinite alternate;
+            @keyframes rotate {
+                40%{
+                    transform: rotate(10deg);
+                }
+                70%{
+                    transform: rotate(-5deg);
+                }
+            }
+            >img{
+                width: 555px;
+            }
+        }
+    }
+    >div.primary-button-pages-wrapper{
+        display: flex;
+        gap: 15px;
+        justify-content: flex-start;
+        margin-left: -35em;
+        margin-top: 10px;
+    }
+
+    >div.custom-wavy-shape-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+
+        >svg {
+            position: relative;
+            display: block;
+            width: calc(143% + 1.3px);
+            height: 250px;
+            transform: rotateY(180deg);
+
+            >path.shape-fill {
+                // fill: #ED2F59;
+                fill: rgb(153, 0, 255);
+            }
+        }
+    }
+}

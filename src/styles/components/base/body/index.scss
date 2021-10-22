@@ -1,28 +1,37 @@
-body{
+body {
     background-color: white;
     background: fixed;
     background-size: cover;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-.center_view{
+.center_view {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1440px;
+    max-width: 1536px;
 }
 
-.portrait_view{
+.portrait_view {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.landscape_view{
+.landscape_view {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-::-webkit-scrollbar{
+.gradient-text {
+    height: 1.5em;
+    background: rgb(253, 29, 102);
+    background: rgb(247, 0, 81);
+    background: linear-gradient(90deg, rgba(247, 0, 81, 1) 0%, rgba(7, 0, 255, 1) 100%, rgba(238, 0, 255, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
     display: none;
 }
