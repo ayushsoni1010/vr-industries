@@ -9,7 +9,7 @@ export default function Header() {
     <header className="header-section-wrapper">
       <a href="/" className="logo-wrapper">
         <img src={logo} alt="VR-Industries Logo" className="header-logo-image"/>
-        <p className="">VR Industries</p>
+        {/* <p className="">VR Industries</p> */}
       </a>
       <div className="header-options-wrapper">
         {headerOption.map((data, index) => (
