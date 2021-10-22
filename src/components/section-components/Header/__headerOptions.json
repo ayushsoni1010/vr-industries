@@ -8,11 +8,15 @@
         "path":"/about"
     },
     {
-        "title":"Services",
+        "title":"Products",
         "path":"/servies"
     },
     {
-        "title":"ContactUs",
+        "title":"Infrastructure",
+        "path":"/"
+    },
+    {
+        "title":"Contact Us",
         "path":"/contactus"
     }
 ]

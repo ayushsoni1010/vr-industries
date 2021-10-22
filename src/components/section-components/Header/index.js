@@ -7,10 +7,13 @@ export default function Header() {
   const [headerOption] = useState(headerDetails);
   return (
     <header className="header-section-wrapper">
-      <img src={logo} alt="VR-Industries Logo" className="logo-wrapper" />
+      <a href="/" className="logo-wrapper">
+        <img src={logo} alt="VR-Industries Logo" className="header-logo-image"/>
+        <p className="">VR Industries</p>
+      </a>
       <div className="header-options-wrapper">
         {headerOption.map((data, index) => (
-          <li key={index}>
+          <li key={index} className="header-options-link">
             <a href={data.path}>{data.title}</a>
           </li>
         ))}
