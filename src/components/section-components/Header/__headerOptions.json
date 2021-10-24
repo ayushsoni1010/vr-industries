@@ -9,11 +9,11 @@
     },
     {
         "title":"Products",
-        "path":"/servies"
+        "path":"/products"
     },
     {
         "title":"Infrastructure",
-        "path":"/"
+        "path":"/servies"
     },
     {
         "title":"Contact Us",
