@@ -1,0 +1,34 @@
+div.mission-vision-card-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+  height: auto;
+  padding: 35px;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+div.mission-vision-card-section-wrapper > p.mission-vision-card-description {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 100px;
+}
+
+div.mission-vision-card-section-wrapper > img {
+  width: 100px;
+  position: absolute;
+  left: 10px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.card.missionCard.css.map */
