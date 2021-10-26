@@ -15,78 +15,37 @@ div.home-section-wrapper > div.home-section-content-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-}
-
-div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
   margin-top: 50px;
 }
 
-div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container > p.home-section-title {
+div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-title {
   font-family: 'Baloo 2';
   font-weight: 800;
   font-size: 80px;
-  margin-left: 30px;
   line-height: 85px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
 }
 
-div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container > p.home-section-second-title {
+div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-second-title {
   font-family: 'Inter';
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 17px;
   margin-left: 30px;
-}
-
-div.home-section-wrapper > div.home-section-content-wrapper > div.person {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-animation: rotate 5s infinite alternate;
-          animation: rotate 5s infinite alternate;
-}
-
-@-webkit-keyframes rotate {
-  40% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-  }
-  70% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-}
-
-@keyframes rotate {
-  40% {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-  }
-  70% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
-  }
-}
-
-div.home-section-wrapper > div.home-section-content-wrapper > div.person > img {
-  width: 555px;
 }
 
 div.home-section-wrapper > div.primary-button-pages-wrapper {
@@ -97,8 +56,50 @@ div.home-section-wrapper > div.primary-button-pages-wrapper {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-left: -35em;
-  margin-top: 10px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+div.home-section-wrapper > div.primary-button-pages-wrapper > a {
+  cursor: pointer;
+}
+
+div.home-section-wrapper > div.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: rotate 5s infinite alternate;
+          animation: rotate 5s infinite alternate;
+  z-index: 5;
+  position: absolute;
+  left: -20px;
+  top: 27em;
+}
+
+@-webkit-keyframes rotate {
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  70% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes rotate {
+  40% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  70% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+div.home-section-wrapper > div.person > img {
+  width: 55%;
 }
 
 div.home-section-wrapper > div.custom-wavy-shape-bottom {
@@ -115,13 +116,47 @@ div.home-section-wrapper > div.custom-wavy-shape-bottom {
 div.home-section-wrapper > div.custom-wavy-shape-bottom > svg {
   position: relative;
   display: block;
-  width: calc(143% + 1.3px);
-  height: 250px;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  width: calc(200% + 1.3px);
+  height: 200px;
 }
 
 div.home-section-wrapper > div.custom-wavy-shape-bottom > svg > path.shape-fill {
-  fill: #9900ff;
+  fill: #ED2F59;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 25em;
+  margin-bottom: 10em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > p.product-section-cards-title {
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.views.home.css.map */

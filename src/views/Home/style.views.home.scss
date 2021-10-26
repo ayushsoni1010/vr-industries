@@ -5,53 +5,65 @@ div.home-section-wrapper {
 
     >div.home-section-content-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         position: relative;
+        margin-top: 50px;
 
-        >div.home-section-description-container {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            margin-top: 50px;
-            >p.home-section-title {
-                font-family: 'Baloo 2';
-                font-weight: 800;
-                font-size: 80px;
-                margin-left: 30px;
-                line-height: 85px;
-            }
-            >p.home-section-second-title {
-                font-family: 'Inter';
-                font-weight: 600;
-                margin-top: 20px;
-                font-size: 17px;
-                margin-left: 30px;
-            }
-
+        >p.home-section-title {
+            font-family: 'Baloo 2';
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 85px;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 20px;
         }
-        >div.person{
-            display: flex;
-            animation: rotate 5s infinite alternate;
-            @keyframes rotate {
-                40%{
-                    transform: rotate(10deg);
-                }
-                70%{
-                    transform: rotate(-5deg);
-                }
-            }
-            >img{
-                width: 555px;
-            }
+
+        >p.home-section-second-title {
+            font-family: 'Inter';
+            font-weight: 600;
+            margin-top: 10px;
+            font-size: 17px;
+            margin-left: 30px;
         }
     }
-    >div.primary-button-pages-wrapper{
+
+    >div.primary-button-pages-wrapper {
         display: flex;
         gap: 15px;
         justify-content: flex-start;
-        margin-left: -35em;
-        margin-top: 10px;
+        margin-top: 20px;
+        z-index: 10;
+
+        >a {
+            cursor: pointer;
+        }
+    }
+
+    >div.person {
+        display: flex;
+        animation: rotate 5s infinite alternate;
+        z-index: 5;
+        position: absolute;
+        left: -20px;
+        top:27em;
+
+        @keyframes rotate {
+            40% {
+                transform: rotate(-5deg);
+            }
+
+            70% {
+                transform: rotate(-5deg);
+            }
+        }
+
+        >img {
+            width: 55%;
+        }
     }
 
     >div.custom-wavy-shape-bottom {
@@ -66,14 +78,52 @@ div.home-section-wrapper {
         >svg {
             position: relative;
             display: block;
-            width: calc(143% + 1.3px);
-            height: 250px;
-            transform: rotateY(180deg);
+            width: calc(200% + 1.3px);
+            height: 200px;
 
             >path.shape-fill {
-                // fill: #ED2F59;
-                fill: rgb(153, 0, 255);
+                fill: #ED2F59;
+                // fill: rgb(153, 0, 255);
             }
         }
     }
+
+    >div.product-section-cards-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 25em;
+        margin-bottom: 10em;
+        flex-direction: column;
+
+        >p.product-section-cards-title {
+            font-size: 100px;
+            font-family: 'Baloo 2';
+            font-weight: 800;
+        }
+
+        >div {
+            display: flex;
+            gap: 30px;
+        }
+
+        >div.product-card-first-container {
+            margin-top: 20px;
+            // background-color: #ed2f59;
+        }
+    }
 }
+
+
+// @media screen and (max-width: 1532px){
+//     div.home-section-wrapper{
+//         >div.home-section-content-wrapper{
+//             >div.home-section-description-container{
+//                 >p.home-section-title{
+//                     font-size: 65px;
+//                 }
+//             }
+//         }
+//     }
+// }
