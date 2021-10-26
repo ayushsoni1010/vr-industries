@@ -2,27 +2,38 @@ import React from "react";
 import "./style.views.home.css";
 import person from "../../assets/home-banner-rocket.png";
 import Buttons from "../../components/widgets/Buttons";
+import Cards from "../../components/widgets/Cards/ProductCard";
+import image from "../../assets/image.jpeg";
 
 export default function Home() {
   return (
     <div className="home-section-wrapper">
       <div className="home-section-content-wrapper">
-        <div className="home-section-description-container">
-          <p className="home-section-title">
-            “VR Industries” are a Sole Proprietorship based firm
-          </p>
-          <p className="home-section-second-title">
-            We engaged as the foremost Manufacturer of W Cut , D Cut , Box Bag ,
-            Mask & Suppliers of Non Woven Fabrics.
-          </p>
-        </div>
-        <div className="person">
-          <img src={person} alt="person" />
-        </div>
+        <p className="home-section-title">
+          “VR Industries” are a Sole Proprietorship based firm
+        </p>
+        <p className="home-section-second-title">
+          We engaged as the foremost Manufacturer of W Cut , D Cut , Box Bag ,
+          Mask & Suppliers of Non Woven Fabrics.
+        </p>
+        <p className="home-section-second-title">
+          We are physically present in Industrial Area no. 1 , Dewas Madhya
+          Pradesh
+        </p>
+        <p className="home-section-second-title">
+          Our Production house covers an area of 12000 sq. ft.
+        </p>
       </div>
       <div className="primary-button-pages-wrapper">
-        <Buttons startIcon="fas fa-angle-double-right" value="Read More" />
-        <Buttons startIcon="fas fa-angle-double-right" value="Contact Us" />
+        <a href="/">
+          <Buttons startIcon="fas fa-angle-double-right" value="Read More" />
+        </a>
+        <a href="/">
+          <Buttons startIcon="fas fa-angle-double-right" value="Contact Us" />
+        </a>
+      </div>
+      <div className="person">
+        <img src={person} alt="rocket"/>
       </div>
 
       <div className="custom-wavy-shape-bottom">
@@ -39,8 +50,50 @@ export default function Home() {
         </svg>
       </div>
 
-      <div className="">
-
+      <div className="product-section-cards-wrapper">
+        <p className="product-section-cards-title gradient-text">
+          Our Products
+        </p>
+        <div className="product-card-first-container">
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+        </div>
+        <div className="product-card-second-container">
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+          <Cards
+            productImage={image}
+            title="My Card"
+            startIcon="fab fa-github"
+            value="Read More"
+          />
+        </div>
       </div>
     </div>
   );
