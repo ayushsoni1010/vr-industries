@@ -1,1 +1,193 @@
-/* No CSS *//*# sourceMappingURL=style.views.about.css.map */
+div.about-us-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.about-us-section-wrapper > p.about-us-section-title {
+  margin-top: 30px;
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p.about-us-section-para-one {
+  margin-top: 30px;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p.about-us-section-para-two {
+  margin-top: 30px;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p.about-us-section-para-three {
+  margin-top: 30px;
+}
+
+div.about-us-section-wrapper > div.about-us-section-description-wrapper > img {
+  width: 500px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > p {
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.mission-and-vision-description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.mission-and-vision-description-wrapper > div.mission-and-vision-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  position: relative;
+  left: 150px;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.mission-and-vision-description-wrapper > img {
+  width: 500px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10em;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > p.about-us-team-section-title {
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > div.about-us-team-section-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > div.about-us-team-section-content-wrapper > p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > div.about-us-team-section-content-wrapper > p.about-us-team-section-para {
+  margin-left: 9em;
+  margin-right: 20em;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > div.about-us-team-section-content-wrapper > p.about-us-team-section-profile-details {
+  margin-top: 50px;
+  margin-left: 7.7em;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > div.about-us-team-section-content-wrapper > p.about-us-team-section-profile-role {
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: 'Inter';
+  margin-left: 9em;
+}
+
+div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-team-section-description > img {
+  width: 250px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.views.about.css.map */
