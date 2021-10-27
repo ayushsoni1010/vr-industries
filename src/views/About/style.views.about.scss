@@ -1,0 +1,135 @@
+div.about-us-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >p.about-us-section-title {
+        margin-top: 30px;
+        font-size: 100px;
+        font-family: 'Baloo 2';
+        font-weight: 800;
+    }
+
+    >div.about-us-section-description-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+        >div.about-us-section-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+            margin-right: 10%;
+
+            >p {
+                font-size: 17px;
+                line-height: 25px;
+            }
+
+            >p.about-us-section-para-one {
+                margin-top: 30px;
+            }
+
+            >p.about-us-section-para-two {
+                margin-top: 30px;
+            }
+
+            >p.about-us-section-para-three {
+                margin-top: 30px;
+            }
+        }
+
+        >img {
+            width: 500px;
+            margin-right: 60px;
+            margin-top: 30px;
+        }
+    }
+
+    >div.mission-and-vision-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+
+        >p {
+            font-size: 100px;
+            font-family: 'Baloo 2';
+            font-weight: 800;
+        }
+
+        >div.mission-and-vision-description-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+
+            >div.mission-and-vision-content-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                position: relative;
+                left: 150px;
+            }
+
+            >img {
+                width: 500px;
+                margin-right: 60px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    div.about-us-team-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10em;
+
+        >p.about-us-team-section-title {
+            font-size: 100px;
+            font-family: 'Baloo 2';
+            font-weight: 800;
+        }
+
+        >div.about-us-team-section-description {
+            display: flex;
+            flex-direction: row;
+
+            >div.about-us-team-section-content-wrapper {
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+
+                >p {
+                    font-size: 17px;
+                    line-height: 25px;
+                    }
+
+                >p.about-us-team-section-para {
+                    margin-left: 9em;
+                    margin-right: 20em;
+                }
+                >p.about-us-team-section-profile-details{
+                    margin-top: 50px;
+                    margin-left: 7.7em;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                >p.about-us-team-section-profile-role{
+                    margin-top: 10px;
+                    font-weight: 600;
+                    font-family: 'Inter';
+                    margin-left: 9em;
+                }
+            }
+
+            >img {
+                width: 250px;
+                margin-right: 60px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
