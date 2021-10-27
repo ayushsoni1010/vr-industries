@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.cards.css';
-import Buttons from '../Buttons';
+import './style.cards.productCard.css';
+import Buttons from '../../Buttons';
 
 export default function Cards(__cardProperties) {
     if (!__cardProperties.description) {

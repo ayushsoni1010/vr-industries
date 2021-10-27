@@ -5,7 +5,7 @@ button.button-properties {
   font-family: inherit;
   border-radius: 8px;
   border: none;
-  background-color: blue;
+  background-color: #9900ff;
   font-weight: 500;
   color: white;
   cursor: pointer;
@@ -16,7 +16,7 @@ button.button-properties:focus {
 }
 
 button.button-properties:hover {
-  background-color: #3333ff;
+  background-color: #9900ff;
 }
 
 button.button-icon-properties {

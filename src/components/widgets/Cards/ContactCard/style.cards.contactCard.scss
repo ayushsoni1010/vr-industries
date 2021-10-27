@@ -1,0 +1,26 @@
+div.contact-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 410px;
+    height: auto;
+    background: rgb(153, 0, 255);
+    box-shadow: 1px 1px 10px #ccc, 10px 10px 12px #ccc;
+
+    // background: linear-gradient(90deg, rgba(247, 0, 81, 1) 0%, rgba(7, 0, 255, 1) 100%, rgba(238, 0, 255, 1) 100%);
+    border-radius: 8px;
+    padding: 30px;
+    color: white;
+    margin: 30px;
+    >p{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        >span{
+            font-size: 50px;
+        }
+    }
+}
