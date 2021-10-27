@@ -1,0 +1,48 @@
+div.quick-contact-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    >button.quick-contact-card-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        background: none;
+        border: 2px solid rgb(237, 47, 89);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+
+        >i {
+            font-size: 30px;
+            color: rgb(237, 47, 89);
+            z-index: 10;
+        }
+        &:hover{
+            transition: all 0.5s ease-in-out;
+            background-color: rgb(255, 200, 200);
+        }
+        
+    }
+
+    >div.quick-contact-card-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        >p.quick-contact-card-title {
+            font-family: 'Inter';
+            font-size: 20px;
+            color: black;
+            font-weight: 600;
+        }
+        >p.quick-contact-card-description {
+            font-family: 'Inter';
+            font-size: 17px;
+            color: gray;
+            font-weight: 500;
+        }
+    }
+}

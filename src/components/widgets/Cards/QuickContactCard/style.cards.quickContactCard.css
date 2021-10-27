@@ -1,0 +1,69 @@
+div.quick-contact-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+div.quick-contact-card-wrapper > button.quick-contact-card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: 2px solid #ed2f59;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+div.quick-contact-card-wrapper > button.quick-contact-card-icon > i {
+  font-size: 30px;
+  color: #ed2f59;
+  z-index: 10;
+}
+
+div.quick-contact-card-wrapper > button.quick-contact-card-icon:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #ffc8c8;
+}
+
+div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p.quick-contact-card-title {
+  font-family: 'Inter';
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p.quick-contact-card-description {
+  font-family: 'Inter';
+  font-size: 17px;
+  color: gray;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.cards.quickContactCard.css.map */
