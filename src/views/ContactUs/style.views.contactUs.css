@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=style.views.contactUs.css.map */
+div.contact-us-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.contact-us-section-wrapper > p.contact-us-section-title {
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.contact-us-section-wrapper > div.contact-details-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style.views.contactUs.css.map */

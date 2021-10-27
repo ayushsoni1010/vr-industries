@@ -1,0 +1,16 @@
+div.contact-us-section-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    >p.contact-us-section-title {
+        font-size: 100px;
+        font-family: 'Baloo 2';
+        font-weight: 800;
+    }
+
+    >div.contact-details-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
