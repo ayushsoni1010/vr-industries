@@ -12,15 +12,15 @@ div.contact-card-wrapper {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 410px;
+  width: 380px;
   height: auto;
   background: #9900ff;
-  -webkit-box-shadow: 1px 1px 10px #ccc, 10px 10px 12px #ccc;
-          box-shadow: 1px 1px 10px #ccc, 10px 10px 12px #ccc;
-  border-radius: 8px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
   padding: 30px;
   color: white;
-  margin: 30px;
+  cursor: pointer;
 }
 
 div.contact-card-wrapper > p {
@@ -31,11 +31,15 @@ div.contact-card-wrapper > p {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 div.contact-card-wrapper > p > span {
-  font-size: 50px;
+  font-size: 40px;
+}
+
+div.contact-card-wrapper:hover {
+  background-color: #7252ff;
 }
 /*# sourceMappingURL=style.cards.contactCard.css.map */
