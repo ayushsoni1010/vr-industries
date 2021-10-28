@@ -1,0 +1,195 @@
+div.footer-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 450px;
+    padding-top: 30px;
+
+    >div.footer-section-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        >div.footer-section-logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >a {
+                cursor: pointer;
+
+                >img.footer-section-company-logo {
+                    margin-left: -50px;
+                    width: 350px;
+                    height: auto;
+                }
+            }
+        }
+
+        >div.footer-section-useful-links-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 13px;
+
+            >p.footer-section-title {
+                font-family: 'Inter';
+                color: white;
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+
+
+            >li.footer-section-useful-links-footer-options {
+                list-style: none;
+
+                >a {
+                    color: rgb(218, 218, 218);
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: gray;
+                    }
+
+                    &:hover:active {
+                        color: rgb(237, 47, 89);
+                    }
+                }
+            }
+        }
+
+        >div.footer-section-connect-with-us {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+
+            >p.footer-section-title {
+                font-family: 'Inter';
+                color: white;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            >p.footer-connect-with-us-description {
+                font-family: 'Inter';
+                color: gray;
+                font-weight: 500;
+                font-size: 19px;
+                margin-top: 27px;
+            }
+
+            >div.footer-section-email-service {
+                margin-top: 25px;
+                overflow: hidden;
+
+                >input {
+                    width: 30em;
+                    padding: 2em 1.4em;
+                    border-radius: 5px 0px 0px 5px;
+                    border: none;
+
+                    &::placeholder {
+                        font-size: 18px;
+                        font-family: 'Inter';
+                    }
+
+                    &:focus {
+                        width: 30em;
+                        padding: 2em 1.4em;
+                    }
+                }
+
+                >button {
+                    padding: 20px;
+                    position: relative;
+                    top: 7px;
+                    border-radius: 0px 5px 5px 0px;
+                    border: none;
+                    background: rgb(237, 47, 89);
+                    cursor: pointer;
+
+                    >i {
+                        font-size: 30px;
+                        color: white;
+                    }
+
+                    &:hover {
+                        background: rgb(255, 45, 91);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
+    >div.footer-downward-section-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 30px;
+        margin-top: 80px;
+        align-items: center;
+        margin-right: 12px;
+
+        >div.footer-section-social-links-wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            >a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                text-decoration: none;
+
+                >button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 5px;
+                    transition: all 0.3s ease-in-out;
+                    
+                    >i {
+                        font-size: 30px;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            transition: all 0.3s ease-in-out;
+                            color: white;
+                        }
+                    }
+                    &:hover{
+                        transition: all 0.5s ease-in-out;
+                        background: rgb(255, 45, 91);
+                    }
+                }
+            }
+        }
+
+        >div.copyright-section-wrapper {
+            display: flex;
+            gap: 10px;
+            color: rgb(160, 160, 160);
+            color: white;
+            font-weight: 600;
+            justify-content: center;
+        }
+
+        >div.privacy-terms-and-conditions-wrapper {
+            display: flex;
+            gap: 30px;
+            
+            >p {
+                color: rgb(160, 160, 160);
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}
