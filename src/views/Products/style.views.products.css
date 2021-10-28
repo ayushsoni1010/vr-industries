@@ -1,0 +1,36 @@
+div.product-section-cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 10em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.product-section-cards-wrapper > p.product-section-cards-title {
+  font-size: 100px;
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+
+div.product-section-cards-wrapper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+div.product-section-cards-wrapper > div.product-card-first-container {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.views.products.css.map */

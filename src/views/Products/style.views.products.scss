@@ -1,0 +1,26 @@
+    div.product-section-cards-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 10em;
+        flex-direction: column;
+
+        >p.product-section-cards-title {
+            font-size: 100px;
+            font-family: 'Baloo 2';
+            font-weight: 800;
+        }
+
+        >div {
+            display: flex;
+            gap: 30px;
+        }
+
+        >div.product-card-first-container {
+            margin-top: 20px;
+            // background-color: #ed2f59;
+
+        }
+    }
