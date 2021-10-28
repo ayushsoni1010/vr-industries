@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Twitter",
+    "startIcon": "fab fa-twitter",
+    "link": "https://twitter.com/ayushsoni1010"
+  },
+  {
+    "title": "LinkedIn",
+    "startIcon": "fab fa-linkedin-in",
+    "link": "https://www.linkedin.com/in/ayushsoni1010/"
+  },
+  {
+    "title": "Instagram",
+    "startIcon": "fab fa-instagram",
+    "link": "https://instagram.com/aayushsoni1010"
+  },
+  {
+    "title": "Youtube",
+    "startIcon": "fab fa-youtube",
+    "link": "https://youtube.com/"
+  }
+]
