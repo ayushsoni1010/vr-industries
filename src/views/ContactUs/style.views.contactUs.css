@@ -52,7 +52,9 @@ div.contact-us-section-wrapper > div.contact-us-send-message-and-map-wrapper > d
 
 div.contact-us-section-wrapper > div.contact-us-send-message-and-map-wrapper > div.contact-us-send-message-us-wrapper > p.send-message-us-description {
   font-family: 'Inter';
+  font-weight: 500;
   font-size: 20px;
+  color: gray;
   margin-top: 10px;
 }
 
