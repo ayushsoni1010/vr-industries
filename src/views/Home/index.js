@@ -3,7 +3,12 @@ import "./style.views.home.css";
 import person from "../../assets/home-banner-rocket.png";
 import Buttons from "../../components/widgets/Buttons";
 import Cards from "../../components/widgets/Cards/ProductCard";
-import image from "../../assets/image.jpeg";
+import dCut from "../../assets/dCut.jpeg";
+import maskImage from "../../assets/maskImage.png";
+import boxBags from "../../assets/boxBags.png";
+import wCut from "../../assets/wCut.webp";
+import productImageUp from "../../assets/productsImageUp.svg";
+import productImageDown from "../../assets/productsImageDown.svg";
 
 export default function Home() {
   return (
@@ -33,7 +38,7 @@ export default function Home() {
         </a>
       </div>
       <div className="person">
-        <img src={person} alt="rocket"/>
+        <img src={person} alt="rocket" />
       </div>
 
       <div className="custom-wavy-shape-bottom">
@@ -56,41 +61,31 @@ export default function Home() {
         </p>
         <div className="product-card-first-container">
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={wCut}
+            title="W cut"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={dCut}
+            title="D cut"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
-          <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
-            value="Read More"
-          />
+          <img src={productImageUp} alt="ProductsImage" />
         </div>
         <div className="product-card-second-container">
+          <img src={productImageDown} alt="ProductsImage" />
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={maskImage}
+            title="Fabric Rolls"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
-            value="Read More"
-          />
-          <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={boxBags}
+            title="Box Bags"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
         </div>

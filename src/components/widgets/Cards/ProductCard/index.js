@@ -8,10 +8,12 @@ export default function Cards(__cardProperties) {
       <div className="product-card-wrapper">
         <img src={__cardProperties.productImage} alt="ProductImage" />
         <p className="product-card-title ">{__cardProperties.title}</p>
-        <Buttons
-          startIcon={__cardProperties.startIcon}
-          value={__cardProperties.value}
-        />
+        <a href="/products">
+          <Buttons
+            startIcon={__cardProperties.startIcon}
+            value={__cardProperties.value}
+          />
+        </a>
       </div>
     );
   } else {

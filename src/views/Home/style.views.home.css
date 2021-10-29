@@ -135,7 +135,7 @@ div.home-section-wrapper > div.product-section-cards-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 10em;
   margin-top: 25em;
   margin-bottom: 10em;
   -webkit-box-orient: vertical;
@@ -158,6 +158,15 @@ div.home-section-wrapper > div.product-section-cards-wrapper > div {
 }
 
 div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container {
-  margin-top: 20px;
+  margin-top: -5em;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container > img {
+  width: 500px;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container > img {
+  width: 400px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=style.views.home.css.map */

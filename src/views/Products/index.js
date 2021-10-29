@@ -1,7 +1,10 @@
 import React from "react";
 import "./style.views.products.css";
 import Cards from "../../components/widgets/Cards/ProductCard";
-import image from '../../assets/logo.png';
+import dCut from "../../assets/dCut.jpeg";
+import maskImage from "../../assets/maskImage.png";
+import boxBags from "../../assets/boxBags.png";
+import wCut from "../../assets/wCut.webp";
 
 export default function Products() {
   return (
@@ -12,19 +15,19 @@ export default function Products() {
         </p>
         <div className="product-card-first-container">
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={wCut}
+            title="W cut"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={dCut}
+            title="D cut"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
           <Cards
-            productImage={image}
+            productImage={dCut}
             title="My Card"
             startIcon="fab fa-github"
             value="Read More"
@@ -32,21 +35,15 @@ export default function Products() {
         </div>
         <div className="product-card-second-container">
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={maskImage}
+            title="Fabric Rolls"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
           <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
-            value="Read More"
-          />
-          <Cards
-            productImage={image}
-            title="My Card"
-            startIcon="fab fa-github"
+            productImage={boxBags}
+            title="Box Bags"
+            startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
         </div>
