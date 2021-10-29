@@ -15,12 +15,12 @@ div.product-card-wrapper{
         width: 300px;
     }
     >p.product-card-title {
-        font-size: 18px;
+        font-size: 22px;
         font-family: 'Inter';
-        font-weight: 600;
+        font-weight: 700;
     }
     &:hover{
         box-shadow: none;
-        outline :2px solid rgb(237, 47, 89) !important;
+        outline :2px solid #ed2f59 !important;
     }
 }

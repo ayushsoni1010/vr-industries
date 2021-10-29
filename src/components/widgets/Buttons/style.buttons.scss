@@ -22,6 +22,9 @@ button.button-properties {
 }
 
 button.button-icon-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0.8em 1.5em;
     text-align: center;
     font-size: 18px;
@@ -47,5 +50,7 @@ button.button-icon-properties {
 
     >i {
         padding-right: 10px;
+        font-size: 25px;
+        font-weight: 800;
     }
 }
