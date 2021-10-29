@@ -12,12 +12,12 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         "gmail",
-        "template_9zkhwz8",
+        "template_2sx8z2g",
         e.target,
-        "user_XUVi6Y9T6XwQDcIUhmykY"
+        "user_e7Ry2mTzH1Sc6BT5atsJW"
       )
       .then((res) => {
-        if (res.status === 200) alert("Thank You! Your Msg Has Been Sent !");
+        if (res.status === 200) alert("Thank You! Your Message has been sent!");
         else alert("Error !");
       })
       .catch((err) => {
