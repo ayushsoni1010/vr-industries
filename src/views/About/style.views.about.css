@@ -9,7 +9,6 @@ div.about-us-section-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10em;
 }
 
 div.about-us-section-wrapper > p.about-us-section-title {
@@ -133,6 +132,7 @@ div.about-us-section-wrapper div.about-us-team-section-wrapper {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 10em;
+  padding-bottom: 10em;
 }
 
 div.about-us-section-wrapper div.about-us-team-section-wrapper > p.about-us-team-section-title {
