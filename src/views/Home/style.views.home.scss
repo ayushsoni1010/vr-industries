@@ -50,7 +50,7 @@ div.home-section-wrapper {
         z-index: 5;
         position: absolute;
         left: -20px;
-        top:27em;
+        top: 27em;
 
         @keyframes rotate {
             40% {
@@ -111,18 +111,46 @@ div.home-section-wrapper {
 
         >div.product-card-first-container {
             margin-top: -5em;
+            
             // background-color: #ed2f59;
-            >img{
-                width: 500px;
+            >img {
+                margin-left: 20px;
+                width: 570px;
             }
         }
+
         >div.product-card-second-container {
+
             // background-color: #ed2f59;
-            >img{
-                width: 400px;
-                margin-right: 50px;
+            >img {
+                width: 570px;
             }
         }
+    }
+
+    >div.why-choose-us-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5em;
+        background-color: rgb(240, 240, 240);
+        width: 100%;
+
+        >p.why-choose-us-section-title {
+            font-size: 100px;
+            font-family: 'Baloo 2';
+            font-weight: 800;
+            margin-top: 30px;
+        }
+        >div.why-choose-us-cards-container{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            align-items: center;
+            margin-top: 50px;
+            padding-bottom: 10em;
+        }
+      
     }
 }
 

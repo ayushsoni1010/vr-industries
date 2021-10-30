@@ -7,8 +7,10 @@ import dCut from "../../assets/dCut.jpeg";
 import maskImage from "../../assets/maskImage.png";
 import boxBags from "../../assets/boxBags.png";
 import wCut from "../../assets/wCut.webp";
+import illustration from "../../assets/selection.svg";
 import productImageUp from "../../assets/productsImageUp.svg";
 import productImageDown from "../../assets/productsImageDown.svg";
+import WhyChososeUsCard from "../../components/widgets/Cards/WhyChooseUsCard";
 
 export default function Home() {
   return (
@@ -87,6 +89,29 @@ export default function Home() {
             title="Box Bags"
             startIcon="fas fa-chevron-circle-down"
             value="Read More"
+          />
+        </div>
+      </div>
+
+      <div className="why-choose-us-section-wrapper">
+        <p className="why-choose-us-section-title gradient-text">
+          Why Choose Us
+        </p>
+        <div className="why-choose-us-cards-container">
+          <WhyChososeUsCard
+            mainIcon="fas fa-calendar-check"
+            title="Unique Approach"
+            description="We seamlessly engage with your company as a part of your staff."
+          />
+          <WhyChososeUsCard
+            mainIcon="fas fa-crown"
+            title="Great Team"
+            description="Our team represents a mix of agency and enterprise experience."
+          />
+          <WhyChososeUsCard
+            mainIcon="fas fa-gem"
+            title="Serving Experienced"
+            description="We have been serving premier non-woven bags over the clients for 5 years long."
           />
         </div>
       </div>
