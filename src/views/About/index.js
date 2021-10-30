@@ -76,7 +76,7 @@ export default function About() {
               </p>
               <p className="about-us-team-section-profile-role">DIRECTOR</p>
             </div>
-            <img src={png} alt="ProfilePic"/>
+            <img src={png} alt="ProfilePic" />
           </div>
         </div>
       </div>

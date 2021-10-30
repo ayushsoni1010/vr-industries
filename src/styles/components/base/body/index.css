@@ -1,5 +1,4 @@
 body {
-  background-color: white;
   background: fixed;
   background-size: cover;
   font-family: 'Inter', sans-serif;
@@ -39,10 +38,7 @@ body {
 
 .gradient-text {
   height: 1.5em;
-  background: #fd1d66;
-  background: #f70051;
-  background: -webkit-gradient(linear, left top, right top, from(#f70051), color-stop(100%, #0700ff), to(#ee00ff));
-  background: linear-gradient(90deg, #f70051 0%, #0700ff 100%, #ee00ff 100%);
+  background-color: black;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

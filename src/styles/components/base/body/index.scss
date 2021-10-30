@@ -1,8 +1,29 @@
 body {
-    background-color: white;
     background: fixed;
     background-size: cover;
     font-family: 'Inter', sans-serif;
+// background: #FDC08A;
+// background: -webkit-linear-gradient(top left, #FDC08A, #9AABBF);
+// background: -moz-linear-gradient(top left, #FDC08A, #9AABBF);
+// background: linear-gradient(to bottom right, #FDC08A, #9AABBF);
+
+
+// background: #AEC5E9;
+// background: -webkit-linear-gradient(top left, #AEC5E9, #D7CF9C);
+// background: -moz-linear-gradient(top left, #AEC5E9, #D7CF9C);
+// background: linear-gradient(to bottom right, #AEC5E9, #D7CF9C);
+
+
+// background: #E6F2A7;
+// background: -webkit-linear-gradient(top left, #E6F2A7, #72FE8C);
+// background: -moz-linear-gradient(top left, #E6F2A7, #72FE8C);
+// background: linear-gradient(to bottom right, #E6F2A7, #72FE8C);
+
+
+// background: #E5EDD0;
+// background: -webkit-radial-gradient(bottom left, #E5EDD0, #0E54A6);
+// background: -moz-radial-gradient(bottom left, #E5EDD0, #0E54A6);
+// background: radial-gradient(to top right, #E5EDD0, #0E54A6);
 }
 
 .center_view {
@@ -25,9 +46,10 @@ body {
 
 .gradient-text {
     height: 1.5em;
-    background: rgb(253, 29, 102);
-    background: rgb(247, 0, 81);
-    background: linear-gradient(90deg, rgba(247, 0, 81, 1) 0%, rgba(7, 0, 255, 1) 100%, rgba(238, 0, 255, 1) 100%);
+    // background: rgb(253, 29, 102);
+    // background: rgb(247, 0, 81);
+    // background: linear-gradient(90deg, rgba(247, 0, 81, 1) 0%, rgba(7, 0, 255, 1) 100%, rgba(238, 0, 255, 1) 100%);
+    background-color: black;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
