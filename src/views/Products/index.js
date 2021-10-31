@@ -13,38 +13,81 @@ export default function Products() {
         <p className="product-section-cards-title gradient-text">
           Our Products
         </p>
-        <div className="product-card-first-container">
+        <div className="product-card-first-wrapper">
           <Cards
             productImage={wCut}
             title="W cut"
-            startIcon="fas fa-chevron-circle-down"
-            value="Read More"
+            description="Pleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursues"
+            key1="Sizes :"
+            key2="Material :"
+            key3="Style :"
+            key4="Thickness :"
+            key5="Color :"
+            point1=""
+            point2=""
+            point3=""
+            point4=""
+            point5=""
           />
           <Cards
             productImage={dCut}
             title="D cut"
-            startIcon="fas fa-chevron-circle-down"
-            value="Read More"
+            description="Pleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursues"
+            key1="Sizes :"
+            key2="Material :"
+            key3="Style :"
+            key4="Thickness :"
+            key5="Color :"
+            point1=""
+            point2=""
+            point3=""
+            point4=""
+            point5=""
           />
-          <Cards
-            productImage={dCut}
-            title="My Card"
-            startIcon="fab fa-github"
-            value="Read More"
-          />
-        </div>
-        <div className="product-card-second-container">
           <Cards
             productImage={maskImage}
-            title="Fabric Rolls"
-            startIcon="fas fa-chevron-circle-down"
-            value="Read More"
+            title="Masks"
+            description="Pleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursues"
+            key1="Sizes :"
+            key2="Material :"
+            key3="Style :"
+            key4="Thickness :"
+            key5="Color :"
+            point1=""
+            point2=""
+            point3=""
+            point4=""
+            point5=""
           />
           <Cards
             productImage={boxBags}
             title="Box Bags"
-            startIcon="fas fa-chevron-circle-down"
-            value="Read More"
+            description="Pleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursues"
+            key1="Sizes :"
+            key2="Material :"
+            key3="Style :"
+            key4="Thickness :"
+            key5="Color :"
+            point1=""
+            point2=""
+            point3=""
+            point4=""
+            point5=""
+          />
+          <Cards
+            productImage={boxBags}
+            title="Box Bags"
+            description="Pleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursuesPleasure rationally encounter are extremely painful anyone who loves or pursues"
+            key1="Sizes :"
+            key2="Material :"
+            key3="Style :"
+            key4="Thickness :"
+            key5="Color :"
+            point1=""
+            point2=""
+            point3=""
+            point4=""
+            point5=""
           />
         </div>
       </div>
