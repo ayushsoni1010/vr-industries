@@ -20,6 +20,11 @@ div.why-choose-us-card-wrapper{
         >i{
             color: red;
             font-size: 100px;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.3);
+                transition: all 0.5s ease-in-out;
+            }
         }
     }
     >p.why-choose-us-card-title{

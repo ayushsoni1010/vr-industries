@@ -40,6 +40,15 @@ div.why-choose-us-card-wrapper > button {
 div.why-choose-us-card-wrapper > button > i {
   color: red;
   font-size: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+div.why-choose-us-card-wrapper > button > i:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 div.why-choose-us-card-wrapper > p.why-choose-us-card-title {
