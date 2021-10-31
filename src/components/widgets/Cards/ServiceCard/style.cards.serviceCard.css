@@ -1,0 +1,51 @@
+div.service-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+  height: auto;
+  padding: 30px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+div.service-card-wrapper > span {
+  font-size: 100px;
+  color: red;
+  cursor: pointer;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+div.service-card-wrapper > span:hover {
+  color: gray;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+div.service-card-wrapper > div.service-card-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+  gap: 7px;
+}
+
+div.service-card-wrapper > div.service-card-content-wrapper > p.service-card-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+div.service-card-wrapper > div.service-card-content-wrapper > p.service-card-descruiption {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+/*# sourceMappingURL=style.cards.serviceCard.css.map */
