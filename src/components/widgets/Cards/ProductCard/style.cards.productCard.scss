@@ -1,4 +1,4 @@
-div.product-card-wrapper{
+div.product-card-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,21 +6,101 @@ div.product-card-wrapper{
     width: 350px;
     height: auto;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px #ccc;;
+    box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
     cursor: pointer;
-    img{
+
+    img {
         width: 300px;
     }
+
     >p.product-card-title {
         font-size: 22px;
         font-family: 'Inter';
         font-weight: 700;
     }
-    &:hover{
+
+    &:hover {
         box-shadow: none;
-        outline :2px solid #ed2f59 !important;
+        outline: 2px solid #ed2f59 !important;
+    }
+}
+
+
+div.product-card-specifications-wrapper {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px 30px;
+    // background: #ed2f59;
+
+    >div.product-images-wrapper {
+        cursor: pointer;
+
+        >img {
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                transition: all 0.5s ease-in-out;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    >div.product-card-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 10px;
+
+        >div.product-description-wrapper {
+            >h1 {
+                font-family: "Inter";
+                color: #ed2f59;
+            }
+
+            >p.product-card-title {
+                font-size: 25px;
+                margin-top: 10px;
+                font-weight: 700;
+            }
+
+            >p.product-card-content-description {
+                color: gray;
+                font-weight: 500;
+                margin-top: 5px;
+                line-height: 21px;
+            }
+        }
+
+        >div.product-description-wrapper {
+            >h1 {
+                font-family: "Inter";
+                color: #ed2f59;
+            }
+            >ul{
+                margin-top: 10px;
+                margin-left: 17px;
+                line-height: 25px;
+                >li{
+                    color: gray;
+                    font-weight: 500;
+                    >span{
+                        font-weight: 600;
+                        color: black;
+                    }
+                }
+            }
+        }
+
     }
 }

@@ -37,4 +37,93 @@ div.product-card-wrapper:hover {
           box-shadow: none;
   outline: 2px solid #ed2f59 !important;
 }
+
+div.product-card-specifications-wrapper {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px 30px;
+}
+
+div.product-card-specifications-wrapper > div.product-images-wrapper {
+  cursor: pointer;
+}
+
+div.product-card-specifications-wrapper > div.product-images-wrapper > img {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+div.product-card-specifications-wrapper > div.product-images-wrapper > img:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  margin-left: 10px;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > h1 {
+  font-family: "Inter";
+  color: #ed2f59;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > p.product-card-title {
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > p.product-card-content-description {
+  color: gray;
+  font-weight: 500;
+  margin-top: 5px;
+  line-height: 21px;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > h1 {
+  font-family: "Inter";
+  color: #ed2f59;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > ul {
+  margin-top: 10px;
+  margin-left: 17px;
+  line-height: 25px;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > ul > li {
+  color: gray;
+  font-weight: 500;
+}
+
+div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > ul > li > span {
+  font-weight: 600;
+  color: black;
+}
 /*# sourceMappingURL=style.cards.productCard.css.map */
