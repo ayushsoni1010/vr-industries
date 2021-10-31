@@ -6,13 +6,25 @@ import Cards from "../../components/widgets/Cards/ProductCard";
 import dCut from "../../assets/dCut.jpeg";
 import maskImage from "../../assets/maskImage.png";
 import boxBags from "../../assets/boxBags.png";
+import service from "../../assets/service.svg";
 import wCut from "../../assets/wCut.webp";
-import illustration from "../../assets/selection.svg";
+import bgTop from '../../images/bg-section-top-desktop-1.svg'
+import bgBottom from '../../images/bg-section-bottom-desktop-1.svg'
 import productImageUp from "../../assets/productsImageUp.svg";
 import productImageDown from "../../assets/productsImageDown.svg";
 import WhyChososeUsCard from "../../components/widgets/Cards/WhyChooseUsCard";
+import TestimonialsCard from "../../components/widgets/Cards/TestimonialsCard";
+// import CarouselSwiper from "../../components/section-components/Carousel";
+import { Carousel } from "react-responsive-carousel";
+import ServiceCard from "../../components/widgets/Cards/ServiceCard";
 
 export default function Home() {
+  // const breakpoints = [
+  //   { width: 1, itemsToShow: 1 },
+  //   { width: 1, itemsToShow: 1 },
+  //   { width: 1, itemsToShow: 1 },
+  //   { width: 1, itemsToShow: 1 },
+  // ];
   return (
     <div className="home-section-wrapper">
       <div className="home-section-content-wrapper">
@@ -80,7 +92,7 @@ export default function Home() {
           <img src={productImageDown} alt="ProductsImage" />
           <Cards
             productImage={maskImage}
-            title="Fabric Rolls"
+            title="Masks"
             startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
@@ -99,22 +111,122 @@ export default function Home() {
         </p>
         <div className="why-choose-us-cards-container">
           <WhyChososeUsCard
-            mainIcon="fas fa-calendar-check"
-            title="Unique Approach"
+            mainIcon="fas fa-shopping-bag"
+            title="Durable Bags"
             description="We seamlessly engage with your company as a part of your staff."
           />
           <WhyChososeUsCard
-            mainIcon="fas fa-crown"
-            title="Great Team"
+            mainIcon="fas fa-calendar-check"
+            title="Customized Solutions"
             description="Our team represents a mix of agency and enterprise experience."
           />
           <WhyChososeUsCard
-            mainIcon="fas fa-gem"
-            title="Serving Experienced"
+            mainIcon="fas fa-recycle"
+            title="Eco-Friendly Bags"
             description="We have been serving premier non-woven bags over the clients for 5 years long."
           />
         </div>
       </div>
+      <div className="service-section-cards-wrapper">
+        <div className="bg-top">
+          <img src={bgTop} alt="bgTop" />
+        </div>
+        <div className="service-section-content-container">
+          <p className="service-section-title">Check our Services</p>
+          <p className="service-section-main-content">
+            Pleasure rationally encounter consequences that are painful. Nor
+            again is there anyone who pursues
+          </p>
+        </div>
+        <div className="service-container">
+          <div className="left-side-cards-wrapper">
+            <ServiceCard
+              startIcon="fas fa-chart-pie"
+              title="Digital Solution"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+            <ServiceCard
+              startIcon="fas fa-clipboard-check"
+              title="Business Plan"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+            <ServiceCard
+              startIcon="fas fa-puzzle-piece"
+              title="Creative Strategy"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+          </div>
+          <div className="illustration-container">
+            <img src={service} alt="Illustration" />
+          </div>
+          <div className="right-side-card-wrapper">
+            <ServiceCard
+              startIcon="fas fa-chess"
+              title="Branding"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+            <ServiceCard
+              startIcon="fas fa-business-time"
+              title="Marketing Policy"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+            <ServiceCard
+              startIcon="fas fa-podcast"
+              title="Campaign & PR"
+              description="Pleasure rationally service are anyone who pursues"
+            />
+          </div>
+        </div>
+        <div className="bg-bottom">
+          <img src={bgBottom} alt="bgBottom" />
+        </div>
+      </div>
+      {/* <div className="testimonials-card-section-wrapper">
+        <div>
+          <Carousel breakpoints={breakpoints}>
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+            <TestimonialsCard
+              avatar={wCut}
+              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
+              name="Ayush Soni"
+            />
+          </Carousel>
+        </div>
+      </div> */}
+
+      <div class="carousel-container"></div>
     </div>
   );
 }

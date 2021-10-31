@@ -208,4 +208,71 @@ div.home-section-wrapper > div.why-choose-us-section-wrapper > div.why-choose-us
   margin-top: 50px;
   padding-bottom: 10em;
 }
+
+div.home-section-wrapper > div.service-section-cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  width: 100%;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-section-content-container {
+  margin-top: -35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffc8c8;
+  width: 100%;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-section-content-container > p.service-section-title {
+  font-family: 'Baloo 2';
+  font-weight: 800;
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-section-content-container > p.service-section-main-content {
+  font-size: 18px;
+  font-weight: 500;
+  color: #797979;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffc8c8;
+  margin-top: -30px;
+  padding-top: 5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
+  margin-top: -30px;
+}
 /*# sourceMappingURL=style.views.home.css.map */

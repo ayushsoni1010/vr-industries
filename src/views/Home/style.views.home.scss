@@ -111,7 +111,7 @@ div.home-section-wrapper {
 
         >div.product-card-first-container {
             margin-top: -5em;
-            
+
             // background-color: #ed2f59;
             >img {
                 margin-left: 20px;
@@ -142,7 +142,8 @@ div.home-section-wrapper {
             font-weight: 800;
             margin-top: 30px;
         }
-        >div.why-choose-us-cards-container{
+
+        >div.why-choose-us-cards-container {
             display: flex;
             flex-direction: row;
             gap: 40px;
@@ -150,7 +151,56 @@ div.home-section-wrapper {
             margin-top: 50px;
             padding-bottom: 10em;
         }
-      
+
+    }
+
+    >div.service-section-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 10em;
+        margin-bottom: 10em;
+        // background-color: rgb(255, 200, 200);
+        // background-color: #ffc8c8;
+        width: 100%;
+
+
+        >div.service-section-content-container {
+            margin-top: -35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 200, 200);
+            width: 100%;
+
+            >p.service-section-title {
+                font-family: 'Baloo 2';
+                font-weight: 800;
+                font-size: 80px;
+                margin-top: 20px;
+            }
+
+            >p.service-section-main-content {
+                font-size: 18px;
+                font-weight: 500;
+                color: rgb(121, 121, 121);
+            }
+        }
+
+        >div.service-container {
+            display: flex;
+            background-color: rgb(255, 200, 200);
+            margin-top: -30px;
+            padding-top: 5em;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        >div.bg-bottom{
+            margin-top: -30px;
+        }
     }
 }
 
