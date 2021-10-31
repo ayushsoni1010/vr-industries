@@ -1,0 +1,35 @@
+div.service-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    // width: 400px;
+    height: auto;
+    padding: 30px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    
+    >span{
+        font-size: 100px;
+        color: red;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+        &:hover{
+            color: gray;
+            transform: rotate(360deg);
+        }
+    }
+    >div.service-card-content-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 7px;
+        >p.service-card-title{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        >p.service-card-descruiption{
+            font-size: 16px;
+            font-weight: 500;
+            color: gray;
+        }
+    }
+}
