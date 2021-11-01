@@ -31,13 +31,28 @@ export default function Cards(__cardProperties) {
             </p>
           </div>
           <div className="product-description-wrapper">
-            <h1>PRODUCT SPECIFICATIONS :</h1>
+            <h1>{__cardProperties.mainTitle}</h1>
+
             <ul>
-              <li><span>{__cardProperties.key1}</span>  {__cardProperties.point1}</li>
-              <li><span>{__cardProperties.key2}</span>{__cardProperties.point2}</li>
-              <li><span>{__cardProperties.key3}</span>{__cardProperties.point3}</li>
-              <li><span>{__cardProperties.key4}</span>{__cardProperties.point4}</li>
-              <li><span>{__cardProperties.key5}</span>{__cardProperties.point5}</li>
+              <li>
+                <span>{__cardProperties.key1}</span> {__cardProperties.point1}
+              </li>
+              <li>
+                <span>{__cardProperties.key2}</span>
+                {__cardProperties.point2}
+              </li>
+              <li>
+                <span>{__cardProperties.key3}</span>
+                {__cardProperties.point3}
+              </li>
+              <li>
+                <span>{__cardProperties.key4}</span>
+                {__cardProperties.point4}
+              </li>
+              <li>
+                <span>{__cardProperties.key5}</span>
+                {__cardProperties.point5}
+              </li>
             </ul>
           </div>
         </div>
