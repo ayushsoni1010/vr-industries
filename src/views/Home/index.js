@@ -4,8 +4,8 @@ import person from "../../assets/home-banner-rocket.png";
 import Buttons from "../../components/widgets/Buttons";
 import Cards from "../../components/widgets/Cards/ProductCard";
 import dCut from "../../assets/dCut.jpeg";
-import maskImage from "../../assets/maskImage.png";
-import boxBags from "../../assets/boxBags.png";
+import maskImageSE from "../../assets/maskImageSE.jpg";
+import boxBags from "../../assets/boxBags.jpg";
 import service from "../../assets/service.svg";
 import wCut from "../../assets/wCut.webp";
 import bgTop from '../../images/bg-section-top-desktop-1.svg'
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="product-card-second-container">
           <img src={productImageDown} alt="ProductsImage" />
           <Cards
-            productImage={maskImage}
+            productImage={maskImageSE}
             title="Masks"
             startIcon="fas fa-chevron-circle-down"
             value="Read More"
@@ -113,17 +113,17 @@ export default function Home() {
           <WhyChososeUsCard
             mainIcon="fas fa-shopping-bag"
             title="Durable Bags"
-            description="We seamlessly engage with your company as a part of your staff."
+            description="When contrasted with conventional shopping bags, these are dependable and can last up to 5 years."
           />
           <WhyChososeUsCard
             mainIcon="fas fa-calendar-check"
             title="Customized Solutions"
-            description="Our team represents a mix of agency and enterprise experience."
+            description="Your goal is our challenge. Our solution is your success. A customized solution is one that is designed and developed"
           />
           <WhyChososeUsCard
             mainIcon="fas fa-recycle"
             title="Eco-Friendly Bags"
-            description="We have been serving premier non-woven bags over the clients for 5 years long."
+            description="Non-woven bags are 100% recyclable. It helps to keep our nature clean and green. You can wash them and use again."
           />
         </div>
       </div>
