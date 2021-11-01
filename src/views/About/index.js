@@ -6,6 +6,8 @@ import png from "../../assets/png.png";
 import light from "../../assets/light.png";
 import pin from "../../assets/pin.png";
 import MissionCard from "../../components/widgets/Cards/MissionCard";
+import bgTop from '../../images/bg-section-top-desktop-2.svg';
+import bgBottom from '../../images/bg-section-bottom-desktop-2.svg';
 
 export default function About() {
   return (
@@ -36,6 +38,30 @@ export default function About() {
         </div>
         <img src={company} alt="CompanyImage" />
       </div>
+      <div className="about-us-team-section-wrapper">
+        <div className="bg-top">
+          <img src={bgTop} alt="bgTop" />
+        </div>
+        <div className="team-section-title-wrapper">
+          <p className="about-us-team-section-title gradient-text">Our Team</p>
+        </div>
+        <div className="about-us-team-section-description">
+          <div className="about-us-team-section-content-wrapper">
+            <p className="about-us-team-section-para">
+              Our great mentor Mr. Vinay Jain has been driving the whole
+              organization with his competent resource & experience of 30years
+              in industrial sector to achieve milestones in the business. We
+              have made excellent progress, and further on we have more to do.
+            </p>
+            <h1 className="about-us-team-section-profile-details">VINAY JAIN</h1>
+            <p className="about-us-team-section-profile-role">DIRECTOR</p>
+          </div>
+          <img src={png} alt="ProfilePic" />
+        </div>
+        <div className="bg-bottom">
+          <img src={bgBottom} alt="bgBottom" />
+        </div>
+      </div>
       <div className="mission-and-vision-section-wrapper">
         <p className="mission-and-vision-title gradient-text">
           Mission & Vision
@@ -60,24 +86,6 @@ export default function About() {
             />
           </div>
           <img src={mission} alt="Mission&Vision" />
-        </div>
-        <div className="about-us-team-section-wrapper">
-          <p className="about-us-team-section-title gradient-text">Our Team</p>
-          <div className="about-us-team-section-description">
-            <div className="about-us-team-section-content-wrapper">
-              <p className="about-us-team-section-para">
-                Our great mentor Mr. Vinay Jain has been driving the whole
-                organization with his competent resource & experience of 30years
-                in industrial sector to achieve milestones in the business. We
-                have made excellent progress, and further on we have more to do.
-              </p>
-              <p className="about-us-team-section-profile-details">
-                VINAY JAIN
-              </p>
-              <p className="about-us-team-section-profile-role">DIRECTOR</p>
-            </div>
-            <img src={png} alt="ProfilePic" />
-          </div>
         </div>
       </div>
     </div>

@@ -51,6 +51,7 @@ div.about-us-section-wrapper {
         flex-direction: column;
         align-items: center;
         margin-top: 100px;
+        padding-bottom: 10em;
 
         >p {
             font-size: 100px;
@@ -86,18 +87,28 @@ div.about-us-section-wrapper {
         flex-direction: column;
         align-items: center;
         margin-top: 10em;
-        padding-bottom: 10em;
-        // background-color: #ff2d5b;
+        padding-bottom: 5em;
         // background-image: url('../../assets/waves.svg');
         // background-image: url('../../assets/Meteor.svg');
 
-        >p.about-us-team-section-title {
-            font-size: 100px;
-            font-family: 'Baloo 2';
-            font-weight: 800;
+        >div.team-section-title-wrapper {
+            background-color: #FFC8C8;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -5px;
+            >p.about-us-team-section-title {
+                font-size: 100px;
+                font-family: 'Baloo 2';
+                font-weight: 800;
+                color: black;
+                text-align: center;
+            }
         }
 
         >div.about-us-team-section-description {
+            background-color: #FFC8C8;
             display: flex;
             flex-direction: row;
 
@@ -116,18 +127,18 @@ div.about-us-section-wrapper {
                     margin-right: 20em;
                 }
 
-                >p.about-us-team-section-profile-details {
+                >h1.about-us-team-section-profile-details {
                     margin-top: 50px;
-                    margin-left: 7.7em;
-                    font-size: 20px;
-                    font-weight: 600;
+                    margin-left: 4.72em;
+                    font-weight: 700;
                 }
 
                 >p.about-us-team-section-profile-role {
                     margin-top: 10px;
                     font-weight: 600;
                     font-family: 'Inter';
-                    margin-left: 9em;
+                    margin-left: 7.6em;
+                    font-size: 20px;
                 }
             }
 
