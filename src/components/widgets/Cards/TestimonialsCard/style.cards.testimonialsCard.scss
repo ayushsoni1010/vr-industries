@@ -1,0 +1,30 @@
+div.testimonails-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 5px;
+    padding: 50px;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    >img{
+        width: 150px;
+        border-radius: 100%;
+        border: 5px solid rgb(237, 47, 89);
+        padding: 5px;
+    }
+    >p.testimonials-card-description{
+        color: gray;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    >p.testimonials-card-person-name{
+        font-size: 22px;
+        font-weight: 600;
+        color: black;
+        font-family: 'Inter';
+    }
+}
