@@ -14,6 +14,7 @@ div.product-card-wrapper {
 
     img {
         width: 300px;
+        border-radius: 10px;
     }
 
     >p.product-card-title {
@@ -51,6 +52,7 @@ div.product-card-specifications-wrapper {
             transition: all 0.5s ease-in-out;
             position: relative;
             left: -10px;
+            border-radius: 10px;
             &:hover {
                 transition: all 0.5s ease-in-out;
                 transform: scale(1.1);

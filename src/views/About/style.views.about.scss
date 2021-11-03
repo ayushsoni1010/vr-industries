@@ -43,6 +43,7 @@ div.about-us-section-wrapper {
             width: 500px;
             margin-right: 60px;
             margin-top: 30px;
+            border-radius: 10px;
         }
     }
 
@@ -74,10 +75,12 @@ div.about-us-section-wrapper {
                 left: 150px;
             }
 
-            >img {
-                width: 500px;
-                margin-right: 60px;
-                margin-top: 30px;
+            >div {
+                >img {
+                    width: 500px;
+                    margin-right: 60px;
+                    margin-top: 30px;
+                }
             }
         }
     }
@@ -98,6 +101,7 @@ div.about-us-section-wrapper {
             align-items: center;
             justify-content: center;
             margin-top: -5px;
+
             >p.about-us-team-section-title {
                 font-size: 100px;
                 font-family: 'Baloo 2';
