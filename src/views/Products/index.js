@@ -27,7 +27,7 @@ export default function Products() {
             key4="• Thickness :"
             key5="• Color :"
             point1=" 8*10 , 9*12 , 11*14 , 13*16 , 16*20 ,  20*26 , 20*20 , 16*16 "
-            point2=" Non Woven"
+            point2=" Non Woven PP"
             point3=" W Cut"
             point4=" 16GSM - 55GSM and can be customized"
             point5=" Customized"
@@ -43,7 +43,7 @@ export default function Products() {
             key4="• Thickness :"
             key5="• Color :"
             point1=" 9*12 , 10*14 , 12*16 , 14*19 , 16*21"
-            point2=" Non Woven"
+            point2=" Non Woven PP"
             point3=" D Cut"
             point4=" 40GSM - 60GSM and can be customized"
             point5=" Customized"
@@ -59,7 +59,7 @@ export default function Products() {
             key4="• Thickness :"
             key5="• Color :"
             point1=" 10*14 , 12*18 , 13*18 , 14*20 , 16*22"
-            point2=" Non Woven"
+            point2=" Non Woven PP"
             point3=" Loop Handle"
             point4=" 40GSM - 60GSM and can be customized"
             point5=" Customized"
@@ -75,11 +75,11 @@ export default function Products() {
             key3="• Style :"
             key4="• Thickness :"
             key5="• Color :"
-            point1=""
-            point2=""
-            point3=""
-            point4=""
-            point5=""
+            point1=" Customized"
+            point2=" Non Woven PP"
+            point3=" Box Bags"
+            point4=" 50GSM to 120GSM and can be customized"
+            point5=" Customized"
           />
           <Cards
             productImage={maskImage}
@@ -89,18 +89,18 @@ export default function Products() {
           <Cards
             productImage={fabricRolls}
             title="Fabric Rolls"
-            description="Well known for its remarkable features, this non woven roll is extensively used for making disposable bags. Non woven roll is made from the best in class fibers."
+            description="Well known for its remarkable features, this non woven roll is extensively used for making disposable bags. Non woven roll is made from the best in class fibers. Application of Non-woven fabric:  Medical disposable, Health & Hygiene, Packaging, Mattress & Furniture, Agriculture, Filtration, Protective Clothing, and Construction"
             mainTitle=" PRODUCT SPECIFICATIONS :"
             key1="• Sizes :"
             key2="• Material :"
             key3="• Style :"
             key4="• Thickness :"
             key5="• Color :"
-            point1=""
-            point2=""
-            point3=""
-            point4=""
-            point5=""
+            point1=" 19” , 23” , 27” , 33” , 34” , 37” , 42” ,  44” , 48” , 63” & Customized"
+            point2=" Non Woven PP  Fabric"
+            point3=" Fabric Rolls"
+            point4=" Upto 126 Metres"
+            point5=" Customized"
           />
         </div>
       </div>
