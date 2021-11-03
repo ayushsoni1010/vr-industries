@@ -4,6 +4,7 @@ import company from "../../assets/company.jpg";
 import mission from "../../assets/mission.png";
 import png from "../../assets/png.png";
 import light from "../../assets/light.png";
+import director from "../../assets/director.jpeg";
 import pin from "../../assets/pin.png";
 import MissionCard from "../../components/widgets/Cards/MissionCard";
 import bgTop from '../../images/bg-section-top-desktop-2.svg';
@@ -19,6 +20,11 @@ export default function About() {
             VR INDUSTRIES is a Non Woven Fabrics , Carry Bags & Mask
             manufacturing & trading Company with more than 5 years of
             experienced operating team.
+          </p>
+          <p className="about-us-section-para-two">
+            VR Industries” are a Sole Proprietorship based firm We engaged as
+            the foremost Manufacturer of W Cut , D Cut , Box Bag , Mask &
+            Suppliers of Non Woven Fabrics.
           </p>
           <p className="about-us-section-para-two">
             We are physically present in Dewas, an important industrial city of
@@ -58,7 +64,7 @@ export default function About() {
             </h1>
             <p className="about-us-team-section-profile-role">DIRECTOR</p>
           </div>
-          <img src={png} alt="ProfilePic" />
+          <img src={director} alt="ProfilePic" />
         </div>
         <div className="bg-bottom">
           <img src={bgBottom} alt="bgBottom" />

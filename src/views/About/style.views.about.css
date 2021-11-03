@@ -51,11 +51,11 @@ div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.ab
 }
 
 div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p.about-us-section-para-two {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 div.about-us-section-wrapper > div.about-us-section-description-wrapper > div.about-us-section-content-wrapper > p.about-us-section-para-three {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 div.about-us-section-wrapper > div.about-us-section-description-wrapper > img {
@@ -210,5 +210,6 @@ div.about-us-section-wrapper div.about-us-team-section-wrapper > div.about-us-te
   width: 250px;
   margin-right: 60px;
   margin-top: 30px;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=style.views.about.css.map */
