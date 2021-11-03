@@ -13,9 +13,6 @@ import bgBottom from '../../images/bg-section-bottom-desktop-1.svg'
 import productImageUp from "../../assets/productsImageUp.svg";
 import productImageDown from "../../assets/productsImageDown.svg";
 import WhyChososeUsCard from "../../components/widgets/Cards/WhyChooseUsCard";
-import TestimonialsCard from "../../components/widgets/Cards/TestimonialsCard";
-// import CarouselSwiper from "../../components/section-components/Carousel";
-import { Carousel } from "react-responsive-carousel";
 import ServiceCard from "../../components/widgets/Cards/ServiceCard";
 
 export default function Home() {
@@ -44,10 +41,10 @@ export default function Home() {
         </p>
       </div>
       <div className="primary-button-pages-wrapper">
-        <a href="/">
+        <a href="/about">
           <Buttons startIcon="fas fa-angle-double-right" value="Read More" />
         </a>
-        <a href="/">
+        <a href="/contactus">
           <Buttons startIcon="fas fa-angle-double-right" value="Contact Us" />
         </a>
       </div>
@@ -181,52 +178,6 @@ export default function Home() {
           <img src={bgBottom} alt="bgBottom" />
         </div>
       </div>
-      {/* <div className="testimonials-card-section-wrapper">
-        <div>
-          <Carousel breakpoints={breakpoints}>
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-            <TestimonialsCard
-              avatar={wCut}
-              description="There is isi si sisis sisi sis s sisisi s sisis sis sis sis s isisi sis Ayush Ayush Ayush ayush ayush AAyush Ayush Ayush Ayush aytush asyt Ayush Ayush Ayush Ayush Ayush AyusH Ayush Ayush Ayushg Ayushy Ayush Ayush AyusH Ayush ayush AytusH Ayush aytuY Ayush Ayush Ayush Ayush Ayush Ayush Ayush Ayush Aytush Ayush Aytush Ayush ayush Ayush Aytush Ayush ayush Ayush Ayush Ayush Ayush Soni Soni Soni Soni"
-              name="Ayush Soni"
-            />
-          </Carousel>
-        </div>
-      </div> */}
-
-      <div class="carousel-container"></div>
     </div>
   );
 }

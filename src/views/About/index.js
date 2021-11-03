@@ -53,7 +53,9 @@ export default function About() {
               in industrial sector to achieve milestones in the business. We
               have made excellent progress, and further on we have more to do.
             </p>
-            <h1 className="about-us-team-section-profile-details">VINAY JAIN</h1>
+            <h1 className="about-us-team-section-profile-details">
+              VINAY JAIN
+            </h1>
             <p className="about-us-team-section-profile-role">DIRECTOR</p>
           </div>
           <img src={png} alt="ProfilePic" />
@@ -85,7 +87,9 @@ export default function About() {
               cardImage={pin}
             />
           </div>
-          <img src={mission} alt="Mission&Vision" />
+          <div>
+            <img src={mission} alt="Mission&Vision" />
+          </div>
         </div>
       </div>
     </div>
