@@ -4,8 +4,8 @@ import person from "../../assets/home-banner-rocket.png";
 import Buttons from "../../components/widgets/Buttons";
 import Cards from "../../components/widgets/Cards/ProductCard";
 import dCut from "../../assets/dCut.jpeg";
-import maskImageSE from "../../assets/maskImageSE.jpg";
-import boxBags from "../../assets/boxBags.jpg";
+import maskImageSE from "../../assets/maskImage.jpg";
+import boxBags from "../../assets/boxBagsSE.jpg";
 import service from "../../assets/service.svg";
 import wCut from "../../assets/wCut.webp";
 import bgTop from '../../images/bg-section-top-desktop-1.svg'
@@ -14,6 +14,8 @@ import productImageUp from "../../assets/productsImageUp.svg";
 import productImageDown from "../../assets/productsImageDown.svg";
 import WhyChososeUsCard from "../../components/widgets/Cards/WhyChooseUsCard";
 import ServiceCard from "../../components/widgets/Cards/ServiceCard";
+import bgTopProduct from "../../images/bg-section-top-desktop-2.svg";
+import bgBottomProduct from "../../images/bg-section-bottom-desktop-2.svg";
 
 export default function Home() {
   // const breakpoints = [
@@ -67,6 +69,9 @@ export default function Home() {
       </div>
 
       <div className="product-section-cards-wrapper">
+        <div className="bg-top">
+          <img src={bgTopProduct} alt="bgTop" />
+        </div>
         <p className="product-section-cards-title gradient-text">
           Our Products
         </p>
@@ -99,6 +104,9 @@ export default function Home() {
             startIcon="fas fa-chevron-circle-down"
             value="Read More"
           />
+        </div>
+        <div className="bg-bottom">
+          <img src={bgBottomProduct} alt="bgBottom" />
         </div>
       </div>
 

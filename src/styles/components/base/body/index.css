@@ -2,6 +2,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Inter', sans-serif;
+  background: white;
   background: #AEC5E9;
   background: -webkit-gradient(linear, left top, right bottom, from(#AEC5E9), to(#D7CF9C));
   background: linear-gradient(to bottom right, #AEC5E9, #D7CF9C);

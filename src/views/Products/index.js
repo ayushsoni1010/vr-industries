@@ -82,11 +82,6 @@ export default function Products() {
             point5=" Customized"
           />
           <Cards
-            productImage={maskImage}
-            title="Masks"
-            description="Masks can be made from a variety of fabrics and many types of cloth masks are available. Disposable face masks are widely available. They are sometimes referred to as surgical masks or medical procedure masks. A proper fit over your nose and mouth to prevent leaks."
-          />
-          <Cards
             productImage={fabricRolls}
             title="Fabric Rolls"
             description="Well known for its remarkable features, this non woven roll is extensively used for making disposable bags. Non woven roll is made from the best in class fibers. Application of Non-woven fabric:  Medical disposable, Health & Hygiene, Packaging, Mattress & Furniture, Agriculture, Filtration, Protective Clothing, and Construction"
@@ -101,6 +96,11 @@ export default function Products() {
             point3=" Fabric Rolls"
             point4=" 16GSM to 150GSM"
             point5=" Customized"
+          />
+          <Cards
+            productImage={maskImage}
+            title="Masks"
+            description="Masks can be made from a variety of fabrics and many types of cloth masks are available. Disposable face masks are widely available. They are sometimes referred to as surgical masks or medical procedure masks. A proper fit over your nose and mouth to prevent leaks."
           />
         </div>
       </div>
