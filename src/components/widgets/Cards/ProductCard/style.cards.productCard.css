@@ -12,10 +12,8 @@ div.product-card-wrapper {
   gap: 15px;
   width: 350px;
   height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 5px #ccc;
-          box-shadow: 0px 0px 5px #ccc;
+  -webkit-box-shadow: 0px 0px 5px #ed2f59;
+          box-shadow: 0px 0px 5px #ed2f59;
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
@@ -55,12 +53,13 @@ div.product-card-specifications-wrapper {
   gap: 70px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 5px #ccc;
-          box-shadow: 0px 0px 5px #ccc;
+  -webkit-box-shadow: 0px 0px 5px #ed2f59;
+          box-shadow: 0px 0px 5px #ed2f59;
   border-radius: 10px;
   overflow: hidden;
   padding: 10px 30px;
   position: relative;
+  background: white;
 }
 
 div.product-card-specifications-wrapper > div.product-images-wrapper {
@@ -73,6 +72,7 @@ div.product-card-specifications-wrapper > div.product-images-wrapper > img {
   position: relative;
   left: -10px;
   border-radius: 10px;
+  margin-top: 5px;
 }
 
 div.product-card-specifications-wrapper > div.product-images-wrapper > img:hover {
@@ -106,7 +106,7 @@ div.product-card-specifications-wrapper > div.product-card-content-wrapper > div
 }
 
 div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > p.product-card-content-description {
-  color: gray;
+  color: #666666;
   font-weight: 500;
   margin-top: 5px;
   line-height: 21px;
@@ -124,7 +124,7 @@ div.product-card-specifications-wrapper > div.product-card-content-wrapper > div
 }
 
 div.product-card-specifications-wrapper > div.product-card-content-wrapper > div.product-description-wrapper > ul > li {
-  color: gray;
+  color: #666666;
   font-weight: 500;
 }
 

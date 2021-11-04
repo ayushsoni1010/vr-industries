@@ -63,7 +63,7 @@ div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p.quic
 div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p.quick-contact-card-description {
   font-family: 'Inter';
   font-size: 17px;
-  color: gray;
+  color: #666666;
   font-weight: 500;
 }
 /*# sourceMappingURL=style.cards.quickContactCard.css.map */
