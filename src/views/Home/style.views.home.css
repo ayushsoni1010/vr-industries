@@ -134,8 +134,6 @@ div.home-section-wrapper > div.product-section-cards-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10em;
-  margin-bottom: 10em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -146,17 +144,27 @@ div.home-section-wrapper > div.product-section-cards-wrapper > p.product-section
   font-size: 100px;
   font-family: 'Baloo 2';
   font-weight: 800;
-}
-
-div.home-section-wrapper > div.product-section-cards-wrapper > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
+  text-align: center;
+  margin-top: -0.3em;
+  background-color: #FFC8C8;
+  width: 100%;
 }
 
 div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container {
-  margin-top: -5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFC8C8;
+  width: 100%;
+  margin-top: -2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container > img {
@@ -164,8 +172,29 @@ div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-
   width: 570px;
 }
 
+div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFC8C8;
+  width: 100%;
+  margin-top: -2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container > img {
   width: 570px;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-bottom {
+  margin-top: -2em;
 }
 
 div.home-section-wrapper > div.why-choose-us-section-wrapper {
@@ -185,7 +214,7 @@ div.home-section-wrapper > div.why-choose-us-section-wrapper {
 }
 
 div.home-section-wrapper > div.why-choose-us-section-wrapper > p.why-choose-us-section-title {
-  font-size: 14vh;
+  font-size: 100px;
   font-family: 'Baloo 2';
   font-weight: 800;
   margin-top: 30px;

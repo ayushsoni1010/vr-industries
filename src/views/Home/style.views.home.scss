@@ -92,37 +92,52 @@ div.home-section-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10em;
-        margin-bottom: 10em;
         flex-direction: column;
 
         >p.product-section-cards-title {
             font-size: 100px;
             font-family: 'Baloo 2';
             font-weight: 800;
+            text-align: center;
+            margin-top: -0.3em;
+            background-color: #FFC8C8;
+            width: 100%;
         }
-
-        >div {
-            display: flex;
-            gap: 30px;
-        }
-
+                
         >div.product-card-first-container {
-            margin-top: -5em;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFC8C8;
+            width: 100%;
+            margin-top: -2em;
+            padding-top: 5em;
+            padding-bottom: 5em;
+            
             // background-color: #ed2f59;
             >img {
                 margin-left: 20px;
                 width: 570px;
             }
         }
-
+        
         >div.product-card-second-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFC8C8;
+            width: 100%;
+            margin-top: -2em;
+            padding-top: 5em;
+            padding-bottom: 5em;
 
             // background-color: #ed2f59;
             >img {
                 width: 570px;
             }
+        }
+        >div.bg-bottom{
+            margin-top: -2em;
         }
     }
 
@@ -135,8 +150,7 @@ div.home-section-wrapper {
         width: 100%;
 
         >p.why-choose-us-section-title {
-            font-size: 14vh;
-            // font-size: 100px;
+            font-size: 100px;
             font-family: 'Baloo 2';
             font-weight: 800;
             margin-top: 30px;
