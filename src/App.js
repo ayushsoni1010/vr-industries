@@ -9,6 +9,7 @@ import About from "./views/About";
 import ContactUs from "./views/ContactUs";
 import Footer from "./components/section-components/Footer";
 import Products from "./views/Products";
+import Services from "./views/Services";
 
 function App() {
   return (
@@ -17,10 +18,9 @@ function App() {
       <BrowserRouter>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
+        <Route path="/products" exact component={Products} /> 
         <Route path="/contactUs" exact component={ContactUs} />
-        <Route path="/products" exact component={Products} />
-        {/*<Route path="/services" exact component={Home}/>
-        <Route path="/contact" exact component={Home}/> */}
+        <Route path="/services" exact component={Services}/>
       </BrowserRouter>
       <Footer />
     </div>

@@ -5,6 +5,9 @@ import mission from "../../assets/mission.png";
 import png from "../../assets/png.png";
 import light from "../../assets/light.png";
 import director from "../../assets/director.jpeg";
+import MakeinIndiaLogo from "../../assets/MakeinIndiaLogo.png";
+import SwachhLogo from "../../assets/SwachhLogo.png";
+import vocalForLocalLogo from "../../assets/vocalForLocalLogo.png";
 import pin from "../../assets/pin.png";
 import MissionCard from "../../components/widgets/Cards/MissionCard";
 import bgTop from '../../images/bg-section-top-desktop-2.svg';
@@ -96,6 +99,11 @@ export default function About() {
           <div>
             <img src={mission} alt="Mission&Vision" />
           </div>
+        </div>
+        <div className="logos-section-wrapper">
+          <img src={MakeinIndiaLogo} alt="Logo"/>
+          <img src={vocalForLocalLogo} alt="Logo"/>
+          <img src={SwachhLogo} alt="Logo"/>
         </div>
       </div>
     </div>

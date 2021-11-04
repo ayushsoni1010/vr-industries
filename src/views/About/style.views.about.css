@@ -122,6 +122,27 @@ div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.miss
   margin-top: 30px;
 }
 
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.logos-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+}
+
+div.about-us-section-wrapper > div.mission-and-vision-section-wrapper > div.logos-section-wrapper > img {
+  width: 300px;
+}
+
 div.about-us-section-wrapper div.about-us-team-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
