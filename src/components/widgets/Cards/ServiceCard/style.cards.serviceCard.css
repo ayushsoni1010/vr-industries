@@ -21,7 +21,7 @@ div.service-card-wrapper > span {
 }
 
 div.service-card-wrapper > span:hover {
-  color: gray;
+  color: #666666;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -46,6 +46,6 @@ div.service-card-wrapper > div.service-card-content-wrapper > p.service-card-tit
 div.service-card-wrapper > div.service-card-content-wrapper > p.service-card-descruiption {
   font-size: 16px;
   font-weight: 500;
-  color: gray;
+  color: #666666;
 }
 /*# sourceMappingURL=style.cards.serviceCard.css.map */

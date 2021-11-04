@@ -5,8 +5,7 @@ div.product-card-wrapper {
     gap: 15px;
     width: 350px;
     height: auto;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 5px #ed2f59;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
@@ -38,12 +37,12 @@ div.product-card-specifications-wrapper {
     align-items: center;
     gap: 70px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 5px #ed2f59;
     border-radius: 10px;
     overflow: hidden;
     padding: 10px 30px;
     position: relative;
-    // background: #ed2f59;
+    background: white;
 
     >div.product-images-wrapper {
         cursor: pointer;
@@ -53,6 +52,7 @@ div.product-card-specifications-wrapper {
             position: relative;
             left: -10px;
             border-radius: 10px;
+            margin-top: 5px;
             &:hover {
                 transition: all 0.5s ease-in-out;
                 transform: scale(1.1);
@@ -79,7 +79,7 @@ div.product-card-specifications-wrapper {
             }
 
             >p.product-card-content-description {
-                color: gray;
+                color: #666666;
                 font-weight: 500;
                 margin-top: 5px;
                 line-height: 21px;
@@ -96,7 +96,7 @@ div.product-card-specifications-wrapper {
                 line-height: 25px;
                 list-style: none;
                 >li{
-                    color: gray;
+                    color: #666666;
                     font-weight: 500;
                     >span{
                         font-weight: 600;

@@ -2,8 +2,8 @@ div.footer-section-wrapper {
     display: flex;
     flex-direction: column;
     background-color: black;
-
     padding-top: 30px;
+    padding-bottom: 30px;
 
     >div.footer-section-container {
         margin-top: 50px;
@@ -85,20 +85,15 @@ div.footer-section-wrapper {
                 overflow: hidden;
 
                 >input {
-                    width: 80%;
+                    width: 70%;
                     // width: 30em;
-                    padding: 2em 1.4em;
+                    padding: 2em 1em;
                     border-radius: 5px 0px 0px 5px;
                     border: none;
 
                     &::placeholder {
-                        font-size: 18px;
+                        font-size: 17px;
                         font-family: 'Inter';
-                    }
-
-                    &:focus {
-                        width: 30em;
-                        padding: 2em 1.4em;
                     }
                 }
 
@@ -155,16 +150,18 @@ div.footer-section-wrapper {
                     border: none;
                     padding: 5px;
                     transition: all 0.3s ease-in-out;
-                    
+
                     >i {
                         font-size: 30px;
                         transition: all 0.3s ease-in-out;
-                        &:hover{
+
+                        &:hover {
                             transition: all 0.3s ease-in-out;
                             color: white;
                         }
                     }
-                    &:hover{
+
+                    &:hover {
                         transition: all 0.5s ease-in-out;
                         background: rgb(255, 45, 91);
                     }
@@ -175,7 +172,6 @@ div.footer-section-wrapper {
         >div.copyright-section-wrapper {
             display: flex;
             gap: 10px;
-            color: rgb(160, 160, 160);
             color: white;
             font-weight: 600;
             justify-content: center;
@@ -184,9 +180,8 @@ div.footer-section-wrapper {
         >div.privacy-terms-and-conditions-wrapper {
             display: flex;
             gap: 30px;
-            
+
             >p {
-                color: rgb(160, 160, 160);
                 color: white;
                 font-weight: 600;
                 cursor: pointer;
@@ -206,12 +201,14 @@ div.footer-section-wrapper {
             gap: 50px;
             margin-left: 20px;
         }
-        >div.footer-downward-section-wrapper{
+
+        >div.footer-downward-section-wrapper {
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
         }
     }
 }
+
 // @media screen and (max-width: 900px) {
 //     div.footer-section-wrapper {
 //         >div.footer-section-container {

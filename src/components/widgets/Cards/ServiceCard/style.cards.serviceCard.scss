@@ -13,7 +13,7 @@ div.service-card-wrapper{
         cursor: pointer;
         transition: all 1s ease-in-out;
         &:hover{
-            color: gray;
+            color: #666666;
             transform: rotate(360deg);
         }
     }
@@ -29,7 +29,7 @@ div.service-card-wrapper{
         >p.service-card-descruiption{
             font-size: 16px;
             font-weight: 500;
-            color: gray;
+            color: #666666;
         }
     }
 }

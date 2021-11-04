@@ -99,7 +99,7 @@ export default function Products() {
             point1=" 19” , 23” , 27” , 33” , 34” , 37” , 42” ,  44” , 48” , 63” & Customized"
             point2=" Non Woven PP  Fabric"
             point3=" Fabric Rolls"
-            point4=" Upto 126 Metres"
+            point4=" 16GSM to 150GSM"
             point5=" Customized"
           />
         </div>
