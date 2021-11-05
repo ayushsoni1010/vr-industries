@@ -63,33 +63,32 @@ div.about-us-section-wrapper {
         >div.mission-and-vision-description-wrapper {
             display: flex;
             flex-direction: row;
-            align-items: center;
-            justify-content: center;
             margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 25%;
+            margin-left: -7em;
 
             >div.mission-and-vision-content-wrapper {
                 display: flex;
                 flex-direction: column;
-                gap: 30px;
-                position: relative;
-                left: 150px;
             }
 
             >div {
                 >img {
                     width: 500px;
-                    margin-right: 60px;
-                    margin-top: 30px;
                 }
             }
         }
-        >div.logos-section-wrapper{
+
+        >div.logos-section-wrapper {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             gap: 80px;
-            >img{
+
+            >img {
                 width: 300px;
             }
         }
@@ -118,6 +117,18 @@ div.about-us-section-wrapper {
                 font-weight: 800;
                 color: black;
                 text-align: center;
+            }
+        }
+
+        >div.bg-top {
+            >img {
+                width: 100%;
+            }
+        }
+
+        >div.bg-bottom {
+            >img {
+                width: 100%;
             }
         }
 
@@ -161,6 +172,472 @@ div.about-us-section-wrapper {
                 margin-right: 80px;
                 margin-top: 30px;
                 border-radius: 100%;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1150px) and (max-width: 1350px) {
+    div.about-us-section-wrapper {
+        >div.about-us-section-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                margin-top: 70px;
+                width: 50%;
+                margin-left: 50px;
+            }
+        }
+
+        >div.about-us-team-section-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.about-us-team-section-description {
+                >img {
+                    position: relative;
+                    right: 5em;
+                }
+            }
+        }
+
+        >div.mission-and-vision-section-wrapper {
+            >div.mission-and-vision-description-wrapper {
+                gap: 20px;
+                margin-left: 30px;
+
+                >div {
+                    >img {
+                        margin: 50px;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+    div.about-us-section-wrapper {
+        >div.about-us-section-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                margin-top: 70px;
+                width: 70%;
+                margin-left: 50px;
+            }
+        }
+
+        >div.about-us-team-section-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.team-section-title-wrapper {
+                >p.about-us-team-section-title {
+                    margin-right: auto;
+                    margin-left: 3.5em;
+                }
+            }
+
+            >div.about-us-team-section-description {
+                >img {
+                    position: absolute;
+                    right: -2em;
+                }
+            }
+        }
+
+        >div.mission-and-vision-section-wrapper {
+            >div.mission-and-vision-description-wrapper {
+                gap: 20px;
+                margin-left: 30px;
+
+                >div {
+                    >img {
+                        margin: 50px;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    div.about-us-section-wrapper {
+        >p.about-us-section-title {
+            font-size: 70px;
+        }
+
+        >div.about-us-section-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img {
+                margin-top: 70px;
+                width: 80%;
+                margin-left: 50px;
+            }
+        }
+
+        >div.about-us-team-section-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            >div.team-section-title-wrapper {
+                >p.about-us-team-section-title {
+                    margin-right: auto;
+                    margin-left: 3em;
+                    font-size: 70px;
+                }
+            }
+
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.about-us-team-section-description {
+                display: block;
+
+                >img {
+                    margin-left: 9em;
+                }
+
+                >div.about-us-team-section-content-wrapper {
+                    margin-right: auto;
+                    margin-left: auto;
+
+                    >p.about-us-team-section-para {
+                        margin-right: 7em;
+                        margin-left: 9em;
+
+                    }
+                }
+            }
+        }
+
+        >div.mission-and-vision-section-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            >p.mission-and-vision-title {
+                font-size: 70px;
+            }
+
+            >div.logos-section-wrapper {
+                gap: 20px;
+
+                >img {
+                    width: 200px;
+                }
+            }
+
+            >div.mission-and-vision-description-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
+
+                >div {
+                    >img {
+                        margin: 50px;
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    div.about-us-section-wrapper {
+        >p.about-us-section-title {
+            font-size: 45px;
+        }
+
+        >div.about-us-section-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >div.about-us-section-content-wrapper {
+                padding-right: auto;
+                padding-left: auto;
+
+                >p {
+                    text-align: justify;
+                }
+            }
+
+            >img {
+                margin-top: 70px;
+                width: 80%;
+                margin-left: 50px;
+            }
+        }
+
+        >div.about-us-team-section-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            >div.team-section-title-wrapper {
+                >p.about-us-team-section-title {
+                    margin-right: auto;
+                    margin: 1em;
+                    font-size: 45px;
+                }
+            }
+
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.about-us-team-section-description {
+                display: block;
+                margin-top: -50px;
+                padding-bottom: 2em;
+
+                >img {
+                    margin-left: 5em;
+                }
+
+                >div.about-us-team-section-content-wrapper {
+
+                    >p.about-us-team-section-para {
+                        margin-right: 5em;
+                        margin-left: 5em;
+
+                    }
+
+                    >h1.about-us-team-section-profile-details {
+                        margin-left: 2.7em;
+                    }
+
+                    >p.about-us-team-section-profile-role {
+                        margin-left: 4.4em;
+                    }
+                }
+            }
+        }
+
+        >div.mission-and-vision-section-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            >p.mission-and-vision-title {
+                font-size: 45px;
+            }
+
+            >div.logos-section-wrapper {
+                gap: 20px;
+
+                >img {
+                    width: 140px;
+                }
+            }
+
+            >div.mission-and-vision-description-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 15px;
+
+                >div {
+                    >img {
+                        margin: 50px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    div.about-us-section-wrapper {
+        >p.about-us-section-title {
+            font-size: 35px;
+        }
+
+        >div.about-us-section-description-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -10px;
+
+            >div.about-us-section-content-wrapper {
+                padding-right: auto;
+                padding-left: auto;
+
+                >p {
+                    text-align: justify;
+                    font-size: 15px;
+                }
+            }
+
+            >img {
+                margin-top: 30px;
+                width: 80%;
+                margin-left: 50px;
+            }
+        }
+
+        >div.about-us-team-section-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5em;
+
+            >div.team-section-title-wrapper {
+                >p.about-us-team-section-title {
+                    margin-right: auto;
+                    margin: 1em;
+                    font-size: 35px;
+                }
+            }
+
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.about-us-team-section-description {
+                display: block;
+                margin-top: -50px;
+                padding-bottom: 2em;
+
+                >img {
+                    margin-left: 5em;
+                }
+
+                >div.about-us-team-section-content-wrapper {
+
+                    >p.about-us-team-section-para {
+                        margin-right: 3em;
+                        margin-left: 3em;
+
+                    }
+
+                    >h1.about-us-team-section-profile-details {
+                        margin-left: 2.2em;
+                        font-size: 23px;
+                    }
+
+                    >p.about-us-team-section-profile-role {
+                        margin-left: 2.6em;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        >div.mission-and-vision-section-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: -5em;
+
+            >p.mission-and-vision-title {
+                font-size: 35px;
+            }
+
+            >div.logos-section-wrapper {
+                gap: 20px;
+
+                >img {
+                    width: 100px;
+                }
+            }
+
+            >div.mission-and-vision-description-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 15px;
+                
+                >div {
+                    >img {
+                        width: 200px;
+                    }
+                }
             }
         }
     }

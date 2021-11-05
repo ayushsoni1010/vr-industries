@@ -9,11 +9,9 @@ div.mission-vision-card-section-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 55%;
+  width: 500px;
   height: auto;
   padding: 35px;
-  -webkit-box-shadow: 0px 0px 10px #ccc;
-          box-shadow: 0px 0px 10px #ccc;
   border-radius: 10px;
   position: relative;
 }
