@@ -42,4 +42,10 @@ div.contact-card-wrapper > p > span {
 div.contact-card-wrapper:hover {
   background-color: #7252ff;
 }
+
+@media screen and (max-width: 500px) {
+  div.contact-card-wrapper {
+    width: 350px;
+  }
+}
 /*# sourceMappingURL=style.cards.contactCard.css.map */

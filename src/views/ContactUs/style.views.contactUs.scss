@@ -50,11 +50,11 @@ div.contact-us-section-wrapper {
                     >input {
                         display: block;
                         padding: 1em;
-                        width: 35em;
+                        width: 100%;
                         border-radius: 5px;
                         margin-top: 0.5em;
-                        background-color: #E4E4E4;
-                        border: 2px solid gray;
+                        // background-color: #E4E4E4;
+                        border: 2px solid #666666;
 
                         &:focus {
                             outline: none;
@@ -70,9 +70,9 @@ div.contact-us-section-wrapper {
                         display: block;
                         margin-top: 0.5em;
                         border-radius: 5px;
-                        background-color: #E4E4E4;
+                        // background-color: #E4E4E4;
                         padding: 0.8em 1em;
-                        border: 2px solid gray;
+                        border: 2px solid #666666;
                         font-size: 16px;
                         font-family: 'Inter';
 
@@ -246,6 +246,106 @@ div.contact-us-section-wrapper {
             flex-direction: column;
             width: auto;
             margin-top: 100px;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+    div.contact-us-section-wrapper{
+        background-repeat: no-repeat;
+        background-size: contain;
+        >p.contact-us-section-title {
+            font-size: 50px;
+        }
+        >div.contact-us-send-message-and-map-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            >div.contact-illustration-wrapper {
+                >img {
+                    width: 300px;
+                    margin-top: 20px;
+                }
+            }
+            >div.contact-us-send-message-us-wrapper {
+                >p.send-message-us-title{
+                    font-size: 35px;
+                }
+                >p.send-message-us-description{
+                    text-align: center;
+                }
+                >form.contact-us-form-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    >label{
+                        >input{
+                            width: 23em;
+                        }
+                        >textarea{
+                            width: 19em;
+                        }
+                    }
+                }
+            }
+        }
+        >div.contact-us-company-details-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            >div.contact-us-company-address-card-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: -30px;
+                >p.contact-us-company-address-card-title{
+                    font-size: 35px;
+                }
+                >p.contact-us-company-address-card-description{
+                    padding-left: 4em;
+                    padding-right: 4em;
+                    text-align: center;
+                    margin-right: 5px;
+                }
+                >div.quick-card-component-wrapper{
+                    margin-left: 50px;
+                    padding-left: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+
+            >div.contact-us-google-map-location-wrapper {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: auto;
+                margin-left: auto;
+                >iframe {
+                    height: 365px;
+                    width: 365px;
+                    border-radius: 10px;
+                    margin-left: -20px;
+                }
+            }
+        }
+        >div.card-component-admin-details-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            gap: 20px;
         }
     }
     
