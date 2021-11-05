@@ -37,7 +37,6 @@ div.product-card-specifications-wrapper {
     align-items: center;
     gap: 70px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 5px #ed2f59;
     border-radius: 10px;
     overflow: hidden;
     padding: 10px 30px;
@@ -53,6 +52,7 @@ div.product-card-specifications-wrapper {
             left: -10px;
             border-radius: 10px;
             margin-top: 5px;
+
             &:hover {
                 transition: all 0.5s ease-in-out;
                 transform: scale(1.1);
@@ -83,6 +83,7 @@ div.product-card-specifications-wrapper {
                 font-weight: 500;
                 margin-top: 5px;
                 line-height: 21px;
+                text-align: justify;
             }
         }
 
@@ -91,14 +92,17 @@ div.product-card-specifications-wrapper {
                 font-family: "Inter";
                 color: #ed2f59;
             }
-            >ul{
+
+            >ul {
                 margin-top: 10px;
                 line-height: 25px;
                 list-style: none;
-                >li{
+
+                >li {
                     color: #666666;
                     font-weight: 500;
-                    >span{
+
+                    >span {
                         font-weight: 600;
                         color: black;
                     }
@@ -110,14 +114,15 @@ div.product-card-specifications-wrapper {
 }
 
 
-@media screen and (min-width:1212px) and (max-width: 1365px){
-    div.product-card-specifications-wrapper{
-        >div.product-images-wrapper{
-            >img{
+@media screen and (min-width:1212px) and (max-width: 1365px) {
+    div.product-card-specifications-wrapper {
+        >div.product-images-wrapper {
+            >img {
                 width: 400px;
             }
         }
-        >div.product-card-content-wrapper{
+
+        >div.product-card-content-wrapper {
             padding-top: 40px;
             padding-bottom: 40px;
             margin-left: -20px;
@@ -127,17 +132,19 @@ div.product-card-specifications-wrapper {
 
 
 @media screen and (min-width: 785px) and (max-width: 1212px) {
-    div.product-card-specifications-wrapper{
+    div.product-card-specifications-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        >div.product-images-wrapper{
-            >img{
+
+        >div.product-images-wrapper {
+            >img {
                 width: 400px;
             }
         }
-        >div.product-card-content-wrapper{
+
+        >div.product-card-content-wrapper {
             margin-top: -20px;
             padding-bottom: 30px;
         }
@@ -145,26 +152,62 @@ div.product-card-specifications-wrapper {
 }
 
 
-@media screen and  (max-width: 1212px) {
-    div.product-card-specifications-wrapper{
+@media screen and (max-width: 1212px) {
+    div.product-card-specifications-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        >div.product-images-wrapper{
-            >img{
+
+        >div.product-images-wrapper {
+            >img {
                 width: 350px;
                 margin-left: 20px;
             }
         }
-        >div.product-card-content-wrapper{
+
+        >div.product-card-content-wrapper {
             margin-top: -20px;
             padding-bottom: 30px;
-            >div.product-description-wrapper{
-                >h1{
+
+            >div.product-description-wrapper {
+                >h1 {
                     font-size: 26px;
                 }
-                >p.product-card-title{
+
+                >p.product-card-title {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 555px) {
+    div.product-card-specifications-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >div.product-images-wrapper {
+            >img {
+                width: 250px;
+                margin-left: 20px;
+            }
+        }
+
+        >div.product-card-content-wrapper {
+            margin-top: -50px;
+            padding-bottom: 30px;
+
+            >div.product-description-wrapper {
+                >h1 {
+                    font-size: 22px;
+                }
+
+                >p.product-card-title {
                     font-size: 21px;
                 }
             }

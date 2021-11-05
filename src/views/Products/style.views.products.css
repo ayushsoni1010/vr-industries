@@ -52,4 +52,10 @@ div.product-section-cards-wrapper > div.product-card-first-wrapper {
     font-size: 70px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  div.products-section-wrapper > div.product-section-cards-wrapper > p.product-section-cards-title {
+    font-size: 35px;
+  }
+}
 /*# sourceMappingURL=style.views.products.css.map */

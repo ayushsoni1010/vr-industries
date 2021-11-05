@@ -291,9 +291,6 @@ div.service-infrastructure-section-wrapper > div > div > img:hover {
 }
 
 @media screen and (max-width: 500px) {
-  div.service-infrastructure-section-wrapper {
-    width: 20vh;
-  }
   div.service-infrastructure-section-wrapper > p.service-title {
     font-size: 35px;
     padding-bottom: 20px;
