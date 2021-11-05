@@ -90,9 +90,8 @@ export default function About() {
               cardImage={light}
             />
             <MissionCard
-              description="VR Industries has an extremely fast and experienced team, offering
-              the best prices with the best quality and production time in the
-              developing market conditions."
+              description="VR Industries has an extremely fast, experienced team and offering
+              the best prices with the best quality & production time in developing market conditions."
               cardImage={pin}
             />
           </div>
@@ -101,9 +100,9 @@ export default function About() {
           </div>
         </div>
         <div className="logos-section-wrapper">
-          <img src={MakeinIndiaLogo} alt="Logo"/>
-          <img src={vocalForLocalLogo} alt="Logo"/>
-          <img src={SwachhLogo} alt="Logo"/>
+          <img src={MakeinIndiaLogo} alt="Logo" />
+          <img src={vocalForLocalLogo} alt="Logo" />
+          <img src={SwachhLogo} alt="Logo" />
         </div>
       </div>
     </div>
