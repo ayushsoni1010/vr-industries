@@ -40,3 +40,13 @@
             }
         }
     }
+
+    @media screen and (max-width: 500px) {
+        div.products-section-wrapper{
+            >div.product-section-cards-wrapper{
+                >p.product-section-cards-title{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
