@@ -46,3 +46,13 @@ div.quick-contact-card-wrapper {
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    div.quick-contact-card-wrapper{
+        >div.quick-contact-card-content-wrapper{
+            >p{
+                padding-right: 98px;
+            }
+        }
+    }
+}

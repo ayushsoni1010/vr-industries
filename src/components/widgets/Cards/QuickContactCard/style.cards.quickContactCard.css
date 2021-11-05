@@ -66,4 +66,10 @@ div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p.quic
   color: #666666;
   font-weight: 500;
 }
+
+@media screen and (max-width: 500px) {
+  div.quick-contact-card-wrapper > div.quick-contact-card-content-wrapper > p {
+    padding-right: 98px;
+  }
+}
 /*# sourceMappingURL=style.cards.quickContactCard.css.map */

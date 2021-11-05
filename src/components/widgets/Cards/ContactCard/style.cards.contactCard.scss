@@ -27,3 +27,9 @@ div.contact-card-wrapper{
         ;
     }
 }
+
+@media screen and (max-width:500px) {
+    div.contact-card-wrapper {
+        width: 350px;
+    }
+}
