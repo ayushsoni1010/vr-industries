@@ -209,6 +209,38 @@ div.footer-section-wrapper {
     }
 }
 
+@media screen and (max-width: 500px) {
+    div.footer-section-wrapper {
+        >div.footer-section-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 50px;
+            padding-left: 10px;
+            >div.footer-section-logo-wrapper{
+                margin-left: -12px;
+            }
+
+            >div.footer-section-connect-with-us{
+                >p.footer-connect-with-us-description {
+                    margin-right: 10em;
+                }
+                >div.footer-section-email-service{
+                    >input{
+                        width: 20em;
+                    }
+                }
+            }
+        }
+
+        >div.footer-downward-section-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 // @media screen and (max-width: 900px) {
 //     div.footer-section-wrapper {
 //         >div.footer-section-container {

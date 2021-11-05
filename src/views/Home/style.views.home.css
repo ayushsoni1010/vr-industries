@@ -299,6 +299,16 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.service-conta
   margin-left: auto;
 }
 
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-container > div.illustration-container > img {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+div.home-section-wrapper > div.service-section-cards-wrapper > div.service-container > div.right-side-card-wrapper {
+  margin-left: -50px;
+}
+
 div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
   margin-top: -30px;
 }
