@@ -60,3 +60,12 @@ header.header-section-wrapper {
         }
     }
 }
+
+
+@media screen and (max-width: 900px){
+    header.header-section-wrapper{
+        >div.header-options-wrapper{
+            display: none;
+        }
+    }
+}

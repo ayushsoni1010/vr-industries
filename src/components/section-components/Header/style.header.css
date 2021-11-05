@@ -78,4 +78,10 @@ header.header-section-wrapper > div.header-options-wrapper > li.header-options-l
 header.header-section-wrapper > div.header-options-wrapper > li.header-options-link > a:active {
   color: #ed2f59;
 }
+
+@media screen and (max-width: 900px) {
+  header.header-section-wrapper > div.header-options-wrapper {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.header.css.map */
