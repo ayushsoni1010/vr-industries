@@ -103,7 +103,7 @@ div.home-section-wrapper {
             background-color: #FFC8C8;
             width: 100%;
         }
-                
+
         >div.product-card-first-container {
             display: flex;
             justify-content: center;
@@ -113,14 +113,14 @@ div.home-section-wrapper {
             margin-top: -2em;
             padding-top: 5em;
             padding-bottom: 5em;
-            
+
             // background-color: #ed2f59;
             >img {
                 margin-left: 20px;
                 width: 570px;
             }
         }
-        
+
         >div.product-card-second-container {
             display: flex;
             justify-content: center;
@@ -136,7 +136,8 @@ div.home-section-wrapper {
                 width: 570px;
             }
         }
-        >div.bg-bottom{
+
+        >div.bg-bottom {
             margin-top: -2em;
         }
     }
@@ -179,6 +180,18 @@ div.home-section-wrapper {
         // background-color: #ffc8c8;
         width: 100%;
 
+        >div.bg-top {
+            >img {
+                width: 100%;
+            }
+        }
+
+        >div.bg-bottom {
+            >img {
+                width: 100%;
+            }
+        }
+
 
         >div.service-section-content-container {
             margin-top: -35px;
@@ -210,33 +223,110 @@ div.home-section-wrapper {
             padding-top: 5em;
             margin-right: auto;
             margin-left: auto;
-            >div.illustration-container{
-                >img{
+
+            >div.illustration-container {
+                >img {
                     width: 500px;
                     margin-top: 50px;
                     margin-left: -30px;
                 }
             }
-            >div.right-side-card-wrapper{
+
+            >div.right-side-card-wrapper {
                 margin-left: -50px;
 
             }
         }
-        >div.bg-bottom{
+
+        >div.bg-bottom {
             margin-top: -30px;
         }
     }
 }
 
 
-// @media screen and (max-width: 1532px){
-//     div.home-section-wrapper{
-//         >div.home-section-content-wrapper{
-//             >div.home-section-description-container{
-//                 >p.home-section-title{
-//                     font-size: 65px;
-//                 }
-//             }
-//         }
-//     }
-// }
+@media screen and (max-width: 500px) {
+    div.home-section-wrapper {
+        >div.home-section-content-wrapper {
+            >div.home-section-description-container {
+                >p.home-section-title {
+                    font-size: 35px;
+                }
+            }
+        }
+
+        >div.why-choose-us-section-wrapper {
+            >p.why-choose-us-section-title {
+                font-size: 35px;
+            }
+
+            >div.why-choose-us-cards-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        >div.service-section-cards-wrapper {
+            >div.bg-top {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.bg-bottom {
+                >img {
+                    width: 100%;
+                }
+            }
+
+            >div.service-section-content-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                >p.service-section-title {
+                    font-size: 35px;
+                }
+
+                >p.service-section-main-content {
+                    margin-right: 2.5em;
+                    margin-left: 2.5em;
+                    text-align: center;
+                }
+            }
+
+            >div.service-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                >div.left-side-cards-wrapper {
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 100%;
+                }
+
+                >div.illustration-container {
+                    >img {
+                        margin-right: auto;
+                        margin-left: auto;
+                        width: 300px;
+                    }
+                }
+
+                >div.right-side-card-wrapper {
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 100%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
