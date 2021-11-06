@@ -140,6 +140,14 @@ div.home-section-wrapper > div.product-section-cards-wrapper {
           flex-direction: column;
 }
 
+div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-top > img {
+  width: 100%;
+}
+
+div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-bottom > img {
+  width: 100%;
+}
+
 div.home-section-wrapper > div.product-section-cards-wrapper > p.product-section-cards-title {
   font-size: 100px;
   font-family: 'Baloo 2';
@@ -322,8 +330,96 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
 }
 
 @media screen and (max-width: 500px) {
-  div.home-section-wrapper > div.home-section-content-wrapper > div.home-section-description-container > p.home-section-title {
+  div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-title {
     font-size: 35px;
+    line-height: 40px;
+  }
+  div.home-section-wrapper > div.home-section-content-wrapper > p {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+  }
+  div.home-section-wrapper > div.primary-button-pages-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.home-section-wrapper > div.person {
+    margin-top: 20px;
+  }
+  div.home-section-wrapper > div.person > img {
+    margin-left: 15px;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -5em;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-top > img {
+    width: 100%;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-bottom > img {
+    width: 100%;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > p.product-section-cards-title {
+    font-size: 35px;
+    margin-top: -35px;
+    padding-top: 55px;
+    z-index: 10;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    position: relative;
+    top: -40px;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-first-container > img {
+    width: 350px;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    margin-top: -6em;
+  }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container > img {
+    width: 350px;
   }
   div.home-section-wrapper > div.why-choose-us-section-wrapper > p.why-choose-us-section-title {
     font-size: 35px;

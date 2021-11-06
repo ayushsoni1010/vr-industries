@@ -50,8 +50,14 @@ button.button-icon-properties {
     }
 
     >i {
-        padding-right: 10px;
-        font-size: 25px;
+        padding-right: 5px;
+        font-size: 20px;
         font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    button.button-icon-properties{
+        padding: 0.6em 0.8em;
     }
 }
