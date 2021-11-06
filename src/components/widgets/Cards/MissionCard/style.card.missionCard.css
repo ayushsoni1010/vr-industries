@@ -14,6 +14,7 @@ div.mission-vision-card-section-wrapper {
   padding: 35px;
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 
 div.mission-vision-card-section-wrapper > p.mission-vision-card-description {
@@ -28,5 +29,11 @@ div.mission-vision-card-section-wrapper > img {
   position: absolute;
   left: 10px;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  div.mission-vision-card-section-wrapper {
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=style.card.missionCard.css.map */
