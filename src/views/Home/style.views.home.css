@@ -334,10 +334,11 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
     font-size: 35px;
     line-height: 40px;
   }
-  div.home-section-wrapper > div.home-section-content-wrapper > p {
+  div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-second-title {
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
+    font-size: 16px;
   }
   div.home-section-wrapper > div.primary-button-pages-wrapper {
     display: -webkit-box;
@@ -383,6 +384,9 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
   div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-top > img {
     width: 100%;
   }
+  div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-bottom {
+    margin-top: -5.3em;
+  }
   div.home-section-wrapper > div.product-section-cards-wrapper > div.bg-bottom > img {
     width: 100%;
   }
@@ -416,6 +420,8 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 50px;
+    position: relative;
+    top: -50px;
     margin-top: -6em;
   }
   div.home-section-wrapper > div.product-section-cards-wrapper > div.product-card-second-container > img {
