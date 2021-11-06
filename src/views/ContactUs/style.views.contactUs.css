@@ -49,6 +49,7 @@ div.contact-us-section-wrapper > div.contact-us-send-message-and-map-wrapper > d
   font-size: 40px;
   font-family: 'Inter';
   font-weight: 800;
+  color: #ED2F59;
 }
 
 div.contact-us-section-wrapper > div.contact-us-send-message-and-map-wrapper > div.contact-us-send-message-us-wrapper > p.send-message-us-description {
@@ -197,6 +198,7 @@ div.contact-us-section-wrapper > div.contact-us-company-details-container > div.
   font-size: 40px;
   font-family: 'Inter';
   font-weight: 800;
+  color: #ED2F59;
 }
 
 div.contact-us-section-wrapper > div.contact-us-company-details-container > div.contact-us-company-address-card-wrapper > p.contact-us-company-address-card-description {
@@ -346,7 +348,7 @@ div.contact-us-section-wrapper > div.card-component-admin-details-wrapper {
     background-size: contain;
   }
   div.contact-us-section-wrapper > p.contact-us-section-title {
-    font-size: 50px;
+    font-size: 35px;
   }
   div.contact-us-section-wrapper > div.contact-us-send-message-and-map-wrapper {
     display: -webkit-box;

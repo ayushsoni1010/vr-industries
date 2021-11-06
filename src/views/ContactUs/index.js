@@ -115,7 +115,7 @@ export default function ContactUs() {
       <div className="card-component-admin-details-wrapper">
         <ContactCard
           nameIcon="fas fa-user"
-          Name="Vinay Jain (Director)"
+          Name="Vinay Jain"
           numberIcon="fas fa-phone"
           Number="+91 7049493600"
           emailIcon="fas fa-envelope"
