@@ -10,8 +10,9 @@ import SwachhLogo from "../../assets/SwachhLogo.png";
 import vocalForLocalLogo from "../../assets/vocalForLocalLogo.png";
 import pin from "../../assets/pin.png";
 import MissionCard from "../../components/widgets/Cards/MissionCard";
-import bgTop from '../../images/bg-section-top-desktop-2.svg';
-import bgBottom from '../../images/bg-section-bottom-desktop-2.svg';
+import bgTop from "../../images/bg-section-top-desktop-2.svg";
+import bgBottom from "../../images/bg-section-bottom-desktop-2.svg";
+import certificate from "../../images/VRCertificate.jpg";
 
 export default function About() {
   return (
@@ -100,9 +101,14 @@ export default function About() {
           </div>
         </div>
         <div className="logos-section-wrapper">
-          <img src={MakeinIndiaLogo} alt="Logo" />
-          <img src={vocalForLocalLogo} alt="Logo" />
-          <img src={SwachhLogo} alt="Logo" />
+          <div className="vr-iso-certificate">
+            <img src={certificate} alt="VR ISO Certificate" />
+          </div>
+          <div className="images-container">
+            <img src={MakeinIndiaLogo} alt="Logo" />
+            <img src={vocalForLocalLogo} alt="Logo" />
+            <img src={SwachhLogo} alt="Logo" />
+          </div>
         </div>
       </div>
     </div>
