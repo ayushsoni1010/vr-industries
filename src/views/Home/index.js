@@ -28,7 +28,8 @@ export default function Home() {
     <div className="home-section-wrapper">
       <div className="home-section-content-wrapper">
         <p className="home-section-title">
-          “VR Industries” are a Sole Proprietorship based firm
+          V.R Industries is an ISO certified company with an experience of 5
+          years.
         </p>
         <p className="home-section-second-title">
           We engaged as the foremost Manufacturer of W Cut , D Cut , Box Bag ,

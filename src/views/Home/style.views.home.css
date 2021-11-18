@@ -32,8 +32,8 @@ div.home-section-wrapper > div.home-section-content-wrapper {
 div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-title {
   font-family: 'Baloo 2';
   font-weight: 800;
-  font-size: 80px;
-  line-height: 85px;
+  font-size: 70px;
+  line-height: 80px;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -46,7 +46,7 @@ div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-sec
   margin-top: 10px;
   font-size: 17px;
   margin-left: 30px;
-  color: #666666;
+  color: #575757;
 }
 
 div.home-section-wrapper > div.primary-button-pages-wrapper {
@@ -104,7 +104,7 @@ div.home-section-wrapper > div.person > img {
 
 div.home-section-wrapper > div.custom-wavy-shape-bottom {
   position: relative;
-  top: -12.5em;
+  top: -11.95em;
   left: 0;
   width: 100%;
   overflow: hidden;
