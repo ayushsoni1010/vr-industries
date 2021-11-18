@@ -32,8 +32,8 @@ div.home-section-wrapper > div.home-section-content-wrapper {
 div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-title {
   font-family: 'Baloo 2';
   font-weight: 800;
-  font-size: 80px;
-  line-height: 85px;
+  font-size: 70px;
+  line-height: 80px;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -46,7 +46,7 @@ div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-sec
   margin-top: 10px;
   font-size: 17px;
   margin-left: 30px;
-  color: #666666;
+  color: #575757;
 }
 
 div.home-section-wrapper > div.primary-button-pages-wrapper {
@@ -104,7 +104,7 @@ div.home-section-wrapper > div.person > img {
 
 div.home-section-wrapper > div.custom-wavy-shape-bottom {
   position: relative;
-  top: -12.5em;
+  top: -11.95em;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -331,14 +331,17 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
 
 @media screen and (max-width: 500px) {
   div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-title {
+    margin-top: -20px;
     font-size: 35px;
-    line-height: 40px;
+    line-height: 35px;
   }
   div.home-section-wrapper > div.home-section-content-wrapper > p.home-section-second-title {
     margin-left: 1em;
     margin-right: 1em;
     text-align: center;
     font-size: 16px;
+    position: relative;
+    top: -10px;
   }
   div.home-section-wrapper > div.primary-button-pages-wrapper {
     display: -webkit-box;
@@ -356,9 +359,10 @@ div.home-section-wrapper > div.service-section-cards-wrapper > div.bg-bottom {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 1px;
   }
   div.home-section-wrapper > div.person {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   div.home-section-wrapper > div.person > img {
     margin-left: 15px;
